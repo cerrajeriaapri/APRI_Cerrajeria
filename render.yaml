@@ -3,7 +3,7 @@ services:
     name: apri-mercadopago-server
     runtime: node
     rootDir: mercadopago-server
-    buildCommand: ""
+    buildCommand: "node --check server.js"
     startCommand: "node server.js"
     healthCheckPath: /health
     envVars:
