@@ -41,16 +41,10 @@ APP_FAILURE_URL=https://wa.me/542615188484?text=Hola%20Cerrajeria%20APRI%2C%20tu
 APP_PENDING_URL=https://wa.me/542615188484?text=Hola%20Cerrajeria%20APRI%2C%20mi%20pago%20quedo%20pendiente.
 ```
 
-Despues de que Render te de la URL, por ejemplo:
+Despues de que Render te de la URL, agrega esta variable:
 
 ```text
-https://apri-mercadopago-server.onrender.com
-```
-
-agrega esta variable:
-
-```text
-MERCADOPAGO_WEBHOOK_URL=https://apri-mercadopago-server.onrender.com/api/webhook
+MERCADOPAGO_WEBHOOK_URL=https://apri-cerrajeria.onrender.com/api/webhook
 ```
 
 ## 4. Configurar Webhook en Mercado Pago
@@ -61,7 +55,7 @@ En Mercado Pago Developers, en tu aplicacion:
 2. Agrega la URL:
 
 ```text
-https://TU_URL_DE_RENDER/api/webhook
+https://apri-cerrajeria.onrender.com/api/webhook
 ```
 
 3. Activa el evento `payment`.
@@ -73,7 +67,7 @@ Mercado Pago envia notificaciones cuando un pago se crea o cambia de estado. El 
 Cuando tengas tu URL de Render, hay que cambiar en `app.js` el backend:
 
 ```js
-const mercadoPagoBackendUrl = "https://TU_URL_DE_RENDER";
+const mercadoPagoBackendUrl = "https://apri-cerrajeria.onrender.com";
 ```
 
 Luego se vuelve a compilar Android.

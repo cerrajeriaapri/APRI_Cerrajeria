@@ -37,9 +37,7 @@ const cartDelivery = document.querySelector("#cartDelivery");
 const cartTotal = document.querySelector("#cartTotal");
 const cartAddress = document.querySelector("#cartAddress");
 const cartCheckout = document.querySelector("#cartCheckout");
-const mercadoPagoBackendUrl = navigator.userAgent.includes("Android")
-  ? "http://10.0.2.2:3001"
-  : "http://localhost:3001";
+const mercadoPagoBackendUrl = "https://apri-cerrajeria.onrender.com";
 
 let homeOpenReason = "perdida de llaves";
 let safeReason = "apertura sola";

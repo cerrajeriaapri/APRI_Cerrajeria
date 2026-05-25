@@ -17,3 +17,5 @@ services:
         value: https://wa.me/542615188484?text=Hola%20Cerrajeria%20APRI%2C%20tuve%20un%20problema%20con%20el%20pago.
       - key: APP_PENDING_URL
         value: https://wa.me/542615188484?text=Hola%20Cerrajeria%20APRI%2C%20mi%20pago%20quedo%20pendiente.
+      - key: MERCADOPAGO_WEBHOOK_URL
+        value: https://apri-cerrajeria.onrender.com/api/webhook
