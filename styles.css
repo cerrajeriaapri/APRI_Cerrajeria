@@ -588,6 +588,16 @@ button {
   gap: 14px;
 }
 
+#catalogo-prive .cart-box,
+#catalogo-prive .prive-products {
+  display: none;
+}
+
+#catalogo-prive.prive-category-selected .cart-box,
+#catalogo-prive.prive-category-selected .prive-products {
+  display: grid;
+}
+
 .prive-category-empty {
   margin: 0;
   padding: 12px;

@@ -4,6 +4,7 @@ const currentTime = document.querySelector("#currentTime");
 const detailTriggers = document.querySelectorAll("[data-detail]");
 const closeDetailButtons = document.querySelectorAll("[data-close-detail]");
 const detailPanels = document.querySelectorAll(".detail-panel");
+const priveCatalogPanel = document.querySelector("#catalogo-prive");
 const priveCategoryButtons = document.querySelectorAll("[data-prive-filter]");
 const priveProducts = document.querySelector("#catalogo-prive .prive-products");
 const priveCategoryEmpty = document.querySelector("#catalogo-prive .prive-category-empty");
@@ -98,6 +99,7 @@ function setupPriveCategories() {
   priveCategoryButtons.forEach((button) => {
     button.addEventListener("click", () => {
       const category = button.dataset.priveFilter;
+      priveCatalogPanel?.classList.add("prive-category-selected");
       priveCategoryButtons.forEach((item) => item.classList.toggle("active", item === button));
       priveProducts.querySelectorAll("[data-prive-category]").forEach((element) => {
         element.hidden = element.dataset.priveCategory !== category;
@@ -108,6 +110,18 @@ function setupPriveCategories() {
       appShell.scrollTo({ top: priveProducts.offsetTop - 12, behavior: "smooth" });
     });
   });
+}
+
+function resetPriveCategories() {
+  if (!priveProducts || !priveCategoryButtons.length) return;
+  priveCatalogPanel?.classList.remove("prive-category-selected");
+  priveCategoryButtons.forEach((button) => button.classList.remove("active"));
+  priveProducts.querySelectorAll("[data-prive-category]").forEach((element) => {
+    element.hidden = true;
+  });
+  if (priveCategoryEmpty) {
+    priveCategoryEmpty.hidden = false;
+  }
 }
 
 updateCurrentTime();
@@ -284,6 +298,9 @@ detailTriggers.forEach((trigger) => {
     event.preventDefault();
     const panel = document.querySelector(trigger.getAttribute("href"));
     detailPanels.forEach((detailPanel) => detailPanel.classList.remove("active-detail"));
+    if (panel === priveCatalogPanel) {
+      resetPriveCategories();
+    }
     panel?.classList.add("active-detail");
     appShell.classList.add("detail-open");
     appShell.scrollTo({ top: 0, behavior: "smooth" });
