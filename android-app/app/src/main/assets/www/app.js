@@ -8,6 +8,7 @@ const priveCatalogPanel = document.querySelector("#catalogo-prive");
 const priveCategoryButtons = document.querySelectorAll("[data-prive-filter]");
 const priveProducts = document.querySelector("#catalogo-prive .prive-products");
 const priveCategoryEmpty = document.querySelector("#catalogo-prive .prive-category-empty");
+const priveSelectedTitle = document.querySelector("#priveSelectedTitle");
 const lockPhotoInput = document.querySelector("#lockPhotoInput");
 const lockPhotoPreview = document.querySelector("#lockPhotoPreview");
 const homeOpenPhotoInput = document.querySelector("#homeOpenPhotoInput");
@@ -85,15 +86,17 @@ function setupPriveCategories() {
   if (!priveProducts || !priveCategoryButtons.length) return;
 
   let currentCategory = "";
+  const categoryLabels = {};
   priveProducts.querySelectorAll(".prive-section-title, .prive-product-card").forEach((element) => {
     if (element.classList.contains("prive-section-title")) {
       currentCategory = normalizePriveCategory(element.textContent || "");
+      categoryLabels[currentCategory] = element.textContent.trim();
       element.dataset.priveCategory = currentCategory;
-      element.hidden = true;
+      element.classList.add("is-hidden");
       return;
     }
     element.dataset.priveCategory = currentCategory || "cerraduras";
-    element.hidden = true;
+    element.classList.add("is-hidden");
   });
 
   priveCategoryButtons.forEach((button) => {
@@ -102,10 +105,13 @@ function setupPriveCategories() {
       priveCatalogPanel?.classList.add("prive-category-selected");
       priveCategoryButtons.forEach((item) => item.classList.toggle("active", item === button));
       priveProducts.querySelectorAll("[data-prive-category]").forEach((element) => {
-        element.hidden = element.dataset.priveCategory !== category;
+        element.classList.toggle("is-hidden", element.dataset.priveCategory !== category);
       });
       if (priveCategoryEmpty) {
-        priveCategoryEmpty.hidden = true;
+        priveCategoryEmpty.classList.add("is-hidden");
+      }
+      if (priveSelectedTitle) {
+        priveSelectedTitle.textContent = categoryLabels[category] || button.textContent.trim();
       }
       appShell.scrollTo({ top: priveProducts.offsetTop - 12, behavior: "smooth" });
     });
@@ -117,10 +123,13 @@ function resetPriveCategories() {
   priveCatalogPanel?.classList.remove("prive-category-selected");
   priveCategoryButtons.forEach((button) => button.classList.remove("active"));
   priveProducts.querySelectorAll("[data-prive-category]").forEach((element) => {
-    element.hidden = true;
+    element.classList.add("is-hidden");
   });
   if (priveCategoryEmpty) {
-    priveCategoryEmpty.hidden = false;
+    priveCategoryEmpty.classList.remove("is-hidden");
+  }
+  if (priveSelectedTitle) {
+    priveSelectedTitle.textContent = "";
   }
 }
 
