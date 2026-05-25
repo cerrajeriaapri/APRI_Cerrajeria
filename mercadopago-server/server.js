@@ -59,7 +59,8 @@ async function createPreference(order) {
   if (!items.length) throw new Error("El carrito esta vacio");
 
   const subtotal = items.reduce((total, item) => total + item.price * item.quantity, 0);
-  const delivery = Math.round(subtotal * 0.2);
+  const highestItemPrice = items.reduce((highest, item) => Math.max(highest, item.price), 0);
+  const delivery = Math.round(highestItemPrice * 0.2);
   const total = subtotal + delivery;
   const address = String(order.address || "domicilio a confirmar").trim();
   const reference = `APRI-${Date.now()}`;
