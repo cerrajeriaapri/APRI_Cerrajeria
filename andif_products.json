@@ -1,0 +1,549 @@
+[
+  {
+    "brand": "ANDIF",
+    "section": "L?nea exterior/interior",
+    "art": "101",
+    "name": "Cerradura de seguridad exterior/interior",
+    "measures": [
+      "Frente: 25 x 240 mm",
+      "Caja: 71 x 149 mm"
+    ],
+    "details": [
+      "Frente pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "6 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro con 2 pernos",
+      "Pestillo, nuez y 2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-101.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea exterior/interior",
+    "art": "860",
+    "name": "Cerradura de seguridad",
+    "measures": [
+      "Frente: 25 x 222,5 mm",
+      "Caja: 63 x 140,5 mm"
+    ],
+    "details": [
+      "Frente pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "4 combinaciones de hierro galvanizado.",
+      "Pasador rectangular espesor 7 x 32 mm.",
+      "Pestillo, nuez y 2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-860.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea exterior/interior",
+    "art": "858",
+    "name": "Cerradura de seguridad",
+    "measures": [
+      "Frente: 25 x 222 mm",
+      "Caja: 60 x 125 mm"
+    ],
+    "details": [
+      "Frente pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "4 combinaciones de hierro galvanizado.",
+      "Pasador c/2 pernos redondos de 12 mm.",
+      "Pestillo, nuez y 2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-858.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea exterior/interior",
+    "art": "855",
+    "name": "Cerradura de seguridad",
+    "measures": [
+      "Frente: 25 x 222 mm",
+      "Caja: 60 x 125 mm"
+    ],
+    "details": [
+      "Frente pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "4 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro espesor 7 x 32 mm.",
+      "Pestillo, nuez y 2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-855.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea exterior/interior",
+    "art": "852",
+    "name": "Cerradura de seguridad",
+    "measures": [
+      "Frente: 25 x 216 mm",
+      "Caja: 60 x 125 mm"
+    ],
+    "details": [
+      "Frente pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "4 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro espesor 7 x 32 mm.",
+      "Pestillo reversible, nuez y 2 llaves"
+    ],
+    "image": "assets/andif-products/andif-852.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea exterior/interior",
+    "art": "851",
+    "name": "Cerradura de seguridad pestillo reversible",
+    "measures": [
+      "Frente: 21 x 183 mm",
+      "Caja: 60 x 125 mm"
+    ],
+    "details": [
+      "Frente pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "4 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro espesor 7 x 32 mm.",
+      "Pestillo reversible, nuez y 2 llaves"
+    ],
+    "image": "assets/andif-products/andif-851.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "Cerrojos",
+    "art": "501",
+    "name": "Cerrojo de seguridad",
+    "measures": [
+      "Frente: 25 x 142 mm",
+      "Caja: 66 x 81 mm"
+    ],
+    "details": [
+      "Frente pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "6 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro con 2 pernos",
+      "2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-501.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "Cerrojos",
+    "art": "504",
+    "name": "Cerrojo de seguridad",
+    "measures": [
+      "Frente: 25 x 141 mm",
+      "Caja: 63 x 81 mm"
+    ],
+    "details": [
+      "Frente pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "4 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro con 2 pernos",
+      "2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-504.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea corrediza",
+    "art": "520",
+    "name": "Cerradura para puerta corrediza",
+    "measures": [
+      "Frente: 23 x 200 mm",
+      "Caja: 40 x 142 mm"
+    ],
+    "details": [
+      "Frente pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "6 combinaciones de hierro galvanizado.",
+      "Pasador con dos trabas de enganche",
+      "2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-520.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea corrediza",
+    "art": "515",
+    "name": "Cerrojo para puerta corrediza",
+    "measures": [
+      "Frente: 25 x 145 mm",
+      "Caja: 66 x 85 mm x 16 de ancho"
+    ],
+    "details": [
+      "Frente pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "6 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro y 4 levas de",
+      "2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-515.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea Euro",
+    "art": "970",
+    "name": "Cerradura l?nea Euro",
+    "measures": [
+      "Frente: 23 x 240 mm",
+      "Caja: 40 x 175 mm"
+    ],
+    "details": [
+      "Frente pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "Pasador de hierro puro rectangular",
+      "Pestillo y nuez 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-970.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea aluminio",
+    "art": "870",
+    "name": "Cerradura para aluminio",
+    "measures": [
+      "Frente: 23 x 240 mm",
+      "Caja: 40 x 175 mm"
+    ],
+    "details": [
+      "Frente pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "6 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro con 2 pernos",
+      "Pestillo, nuez y 2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-870.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea aluminio",
+    "art": "857",
+    "name": "Cerradura para aluminio",
+    "measures": [
+      "Frente: 21 x 183 mm",
+      "Caja: 47 x 125 mm"
+    ],
+    "details": [],
+    "image": "assets/andif-products/andif-857.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea aluminio",
+    "art": "857 F16",
+    "name": "Cerradura para aluminio frente 16",
+    "measures": [
+      "Frente: 16 x 183 mm",
+      "Caja: 47 x 125 mm"
+    ],
+    "details": [],
+    "image": "assets/andif-products/andif-857-f16.png",
+    "price": 22813
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea aluminio",
+    "art": "857/40",
+    "name": "Cerradura para aluminio caja 40",
+    "measures": [
+      "Frente: 21 x 183 mm",
+      "Caja: 40 x 125 mm"
+    ],
+    "details": [
+      "Frente pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "4 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro espesor 7 x 32 mm.",
+      "Pestillo, nuez y 2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-857-40.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea aluminio",
+    "art": "857/40 F16",
+    "name": "Cerradura para aluminio caja 40 frente 16",
+    "measures": [
+      "Frente: 16 x 183 mm",
+      "Caja: 47 x 125 mm"
+    ],
+    "details": [
+      "Frente pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "4 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro espesor 7 x 32 mm.",
+      "Frente y contrafrente de 16 mm con"
+    ],
+    "image": "assets/andif-products/andif-857-40-f16.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "Frente curvo",
+    "art": "852 FC",
+    "name": "Cerradura frente curvo",
+    "measures": [
+      "Frente: 25 x 216 mm",
+      "Caja: 60 x 125 mm"
+    ],
+    "details": [
+      "Frente curvo pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "4 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro espesor 7 x 32 mm.",
+      "Pestillo, nuez y 2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-852-fc.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "Frente curvo",
+    "art": "855 FC",
+    "name": "Cerradura frente curvo",
+    "measures": [
+      "Frente: 25 x 222 mm",
+      "Caja: 60 x 125 mm"
+    ],
+    "details": [
+      "Frente curvo pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "4 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro espesor 7 x 32 mm.",
+      "Pestillo, nuez y 2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-855-fc.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "Frente curvo",
+    "art": "858 FC",
+    "name": "Cerradura frente curvo",
+    "measures": [
+      "Frente: 25 x 222 mm",
+      "Caja: 60 x 125 mm"
+    ],
+    "details": [
+      "Frente curvo pesado de 2,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "4 combinaciones de hierro galvanizado.",
+      "Pasador c/2 pernos redondos de 12 mm.",
+      "Pestillo, nuez y 2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-858-fc.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea cristal",
+    "art": "501C-C",
+    "name": "Cerrojo para cristal",
+    "measures": [
+      "Frente: 25 x 142 mm",
+      "Caja: 66 x 81 mm"
+    ],
+    "details": [
+      "Frente pesado de 3,00 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "6 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro con 2 pernos",
+      "Frente y contrafrente 100% bronce C/C."
+    ],
+    "image": "assets/andif-products/andif-501c-c.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea cristal",
+    "art": "530D/535I",
+    "name": "Cerradura para cristal",
+    "measures": [
+      "Frente: 25 x 140 mm",
+      "Caja: 65 x 97,5 mm"
+    ],
+    "details": [
+      "Frente pesado de 3,00 mm.",
+      "Caja blindada en chapa de hierro",
+      "6 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro rectangular",
+      "Frente, contrafrente, pestillo, nuez"
+    ],
+    "image": "assets/andif-products/andif-530d-535i.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea cristal",
+    "art": "555D/550I",
+    "name": "Cerradura para cristal",
+    "measures": [
+      "Frente: 25 x 140 mm",
+      "Caja: 65 x 97,5 mm"
+    ],
+    "details": [
+      "Frente pesado de 3,00 mm.",
+      "Caja blindada en chapa de hierro",
+      "6 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro rectangular",
+      "Caja, frente y contrafrente de bronce"
+    ],
+    "image": "assets/andif-products/andif-555d-550i.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea cristal",
+    "art": "544",
+    "name": "Cerradura para cristal",
+    "measures": [
+      "Frente: 25 x 161 mm",
+      "Caja: 65 x 97,5 mm"
+    ],
+    "details": [
+      "Frente pesado de 3,00 mm.",
+      "Caja blindada en chapa de hierro",
+      "6 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro rectangular",
+      "Caja, frente y contrafrente de bronce"
+    ],
+    "image": "assets/andif-products/andif-544.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea cristal",
+    "art": "856",
+    "name": "Cerrojo para cristal",
+    "measures": [
+      "Caja: 45 x 73 mm"
+    ],
+    "details": [
+      "Frente pesado 100% bronce de 1,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "6 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro con 2 pernos",
+      "2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-856.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea cristal",
+    "art": "850",
+    "name": "Cerrojo para cristal",
+    "measures": [
+      "Caja: 45 x 73 mm"
+    ],
+    "details": [
+      "Frente pesado 100% bronce de 1,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "6 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro con 2 pernos",
+      "2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-850.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea cristal",
+    "art": "853",
+    "name": "Cerrojo para cristal",
+    "measures": [
+      "Caja: 45 x 73 mm"
+    ],
+    "details": [
+      "Frente pesado 100% bronce de 1,50 mm.",
+      "Caja blindada en chapa de hierro con un",
+      "6 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro con 2 pernos",
+      "2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-853.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "L?nea cristal",
+    "art": "854",
+    "name": "Cerrojo para cristal",
+    "measures": [
+      "Caja: 45 x 73 mm"
+    ],
+    "details": [
+      "Frente pesado 100% bronce de 1,50 mm.",
+      "Caja blindada en chapa de hierro platil",
+      "6 combinaciones de hierro galvanizado.",
+      "Pasador de hierro puro con 2 pernos",
+      "2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-854.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "Cajas de seguridad",
+    "art": "202",
+    "name": "Cerradura para caja de seguridad",
+    "measures": [
+      "Caja: 89 x 82 mm"
+    ],
+    "details": [
+      "Chapa de hierro blindada con un",
+      "6 combinaciones de hierro zincado",
+      "Posee pasador de hierro puro de",
+      "2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-202.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "Cajas de seguridad",
+    "art": "203",
+    "name": "Cerradura para caja de seguridad",
+    "measures": [
+      "Caja: 89 x 83 mm"
+    ],
+    "details": [
+      "Chapa de hierro blindada con un",
+      "6 combinaciones de hierro zincado",
+      "Posee pasador de hierro puro de",
+      "2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-203.png",
+    "price": null
+  },
+  {
+    "brand": "ANDIF",
+    "section": "Cajas de seguridad",
+    "art": "209",
+    "name": "Cerradura para caja de seguridad",
+    "measures": [
+      "Caja: 98 x 82 mm"
+    ],
+    "details": [
+      "Chapa de hierro blindada con un",
+      "8 combinaciones de hierro zincado.",
+      "Pasador de hierro puro y bronce de",
+      "2 llaves 100% bronce."
+    ],
+    "image": "assets/andif-products/andif-209.png",
+    "price": null
+  }
+]

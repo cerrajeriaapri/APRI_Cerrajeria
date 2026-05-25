@@ -30,13 +30,7 @@ const smartLockPhotoInput = document.querySelector("#smartLockPhotoInput");
 const smartLockPhotoPreview = document.querySelector("#smartLockPhotoPreview");
 const smartLockWhatsapp = document.querySelector("#smartLockWhatsapp");
 const smartLockReasonOptions = document.querySelectorAll("[data-smart-lock-reason]");
-const cartItems = document.querySelector("#cartItems");
-const cartCount = document.querySelector("#cartCount");
-const cartSubtotal = document.querySelector("#cartSubtotal");
-const cartDelivery = document.querySelector("#cartDelivery");
-const cartTotal = document.querySelector("#cartTotal");
-const cartAddress = document.querySelector("#cartAddress");
-const cartCheckout = document.querySelector("#cartCheckout");
+const cartBoxes = Array.from(document.querySelectorAll(".cart-box"));
 const mercadoPagoBackendUrl = "https://apri-cerrajeria-1.onrender.com";
 
 let homeOpenReason = "perdida de llaves";
@@ -82,69 +76,87 @@ document.querySelectorAll("[data-service]").forEach((link) => {
   link.rel = "noreferrer";
 });
 
+function getCartParts(cartBox) {
+  return {
+    items: cartBox.querySelector(".cart-items"),
+    count: cartBox.querySelector("#cartCount, [data-cart-count]"),
+    subtotal: cartBox.querySelector("#cartSubtotal, [data-cart-subtotal]"),
+    delivery: cartBox.querySelector("#cartDelivery, [data-cart-delivery]"),
+    total: cartBox.querySelector("#cartTotal, [data-cart-total]"),
+    address: cartBox.querySelector(".cart-address input"),
+    checkout: cartBox.querySelector(".cart-checkout"),
+  };
+}
+
 function updateCart() {
-  if (!cartItems || !cartCount || !cartSubtotal || !cartDelivery || !cartTotal || !cartCheckout) return;
+  if (!cartBoxes.length) return;
 
   const itemCount = cart.reduce((total, item) => total + item.quantity, 0);
   const { subtotal, delivery, total } = orderTotals();
 
-  cartCount.textContent = `${itemCount} ${itemCount === 1 ? "producto" : "productos"}`;
-  cartSubtotal.textContent = formatMoney(subtotal);
-  cartDelivery.textContent = formatMoney(delivery);
-  cartTotal.textContent = formatMoney(total);
+  cartBoxes.forEach((cartBox) => {
+    const parts = getCartParts(cartBox);
+    if (!parts.items || !parts.count || !parts.subtotal || !parts.delivery || !parts.total || !parts.checkout) return;
 
-  if (!cart.length) {
-    cartItems.innerHTML = '<p class="cart-empty">Tocá una cerradura para agregarla al pedido.</p>';
-    cartCheckout.classList.add("disabled");
-    cartCheckout.removeAttribute("href");
-    cartCheckout.setAttribute("aria-disabled", "true");
-    return;
-  }
+    parts.count.textContent = `${itemCount} ${itemCount === 1 ? "producto" : "productos"}`;
+    parts.subtotal.textContent = formatMoney(subtotal);
+    parts.delivery.textContent = formatMoney(delivery);
+    parts.total.textContent = formatMoney(total);
 
-  cartItems.innerHTML = cart
-    .map(
-      (item, index) => `
-        <div class="cart-item">
-          <div>
-            <strong>ART. ${item.art}</strong>
-            <span>${item.name}</span>
-            <small>${formatMoney(item.price)} x ${item.quantity}</small>
-          </div>
-          <div class="cart-qty">
-            <button type="button" data-cart-minus="${index}" aria-label="Quitar uno">-</button>
-            <b>${item.quantity}</b>
-            <button type="button" data-cart-plus="${index}" aria-label="Agregar uno">+</button>
-          </div>
-        </div>`
-    )
-    .join("");
+    if (!cart.length) {
+      parts.items.innerHTML = '<p class="cart-empty">Toca una cerradura para agregarla al pedido.</p>';
+      parts.checkout.classList.add("disabled");
+      parts.checkout.removeAttribute("href");
+      parts.checkout.setAttribute("aria-disabled", "true");
+      return;
+    }
 
-  const address = cartAddress?.value.trim() || "domicilio a confirmar";
-  const order = cart
-    .map((item) => `ART. ${item.art} - ${item.name} x ${item.quantity}: ${formatMoney(item.price * item.quantity)}`)
-    .join("; ");
-  cartCheckout.href = whatsappUrl(
-    `comprar estos productos PRIVE: ${order}. Subtotal: ${formatMoney(subtotal)}. Domicilio 20%: ${formatMoney(delivery)}. Total: ${formatMoney(total)}. Domicilio: ${address}. Quiero coordinar pago y entrega`
-  );
-  cartCheckout.target = "_blank";
-  cartCheckout.rel = "noreferrer";
-  cartCheckout.classList.remove("disabled");
-  cartCheckout.setAttribute("aria-disabled", "false");
+    parts.items.innerHTML = cart
+      .map(
+        (item, index) => `
+          <div class="cart-item">
+            <div>
+              <strong>${item.brand} ART. ${item.art}</strong>
+              <span>${item.name}</span>
+              <small>${formatMoney(item.price)} x ${item.quantity}</small>
+            </div>
+            <div class="cart-qty">
+              <button type="button" data-cart-minus="${index}" aria-label="Quitar uno">-</button>
+              <b>${item.quantity}</b>
+              <button type="button" data-cart-plus="${index}" aria-label="Agregar uno">+</button>
+            </div>
+          </div>`
+      )
+      .join("");
+
+    const address = parts.address?.value.trim() || "domicilio a confirmar";
+    const order = cart
+      .map((item) => `${item.brand} ART. ${item.art} - ${item.name} x ${item.quantity}: ${formatMoney(item.price * item.quantity)}`)
+      .join("; ");
+    parts.checkout.href = whatsappUrl(
+      `comprar estos productos: ${order}. Subtotal: ${formatMoney(subtotal)}. Envio a domicilio: ${formatMoney(delivery)}. Total: ${formatMoney(total)}. Domicilio: ${address}. Quiero coordinar pago y entrega`
+    );
+    parts.checkout.target = "_blank";
+    parts.checkout.rel = "noreferrer";
+    parts.checkout.classList.remove("disabled");
+    parts.checkout.setAttribute("aria-disabled", "false");
+  });
 }
 
 document.querySelectorAll("[data-cart-art]").forEach((button) => {
   button.addEventListener("click", (event) => {
     event.preventDefault();
     const art = button.dataset.cartArt;
+    const brand = button.dataset.cartBrand || "PRIVE";
     const name = button.dataset.cartName;
     const price = Number(button.dataset.cartPrice || 0);
     if (!art || !name || !price) return;
 
-    const existing = cart.find((item) => item.art === art);
+    const existing = cart.find((item) => item.brand === brand && item.art === art);
     if (existing) {
       existing.quantity += 1;
     } else {
-      cart.push({ art, name, price, quantity: 1 });
+      cart.push({ brand, art, name, price, quantity: 1 });
     }
 
     button.classList.add("added");
@@ -154,11 +166,12 @@ document.querySelectorAll("[data-cart-art]").forEach((button) => {
       button.textContent = `Agregar / ${formatMoney(price)}`;
     }, 1100);
     updateCart();
-    document.querySelector("#priveCart")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    const cartBox = button.closest(".detail-panel")?.querySelector(".cart-box") || document.querySelector(".cart-box");
+    cartBox?.scrollIntoView({ behavior: "smooth", block: "nearest" });
   });
 });
 
-cartItems?.addEventListener("click", (event) => {
+document.addEventListener("click", (event) => {
   const minus = event.target.closest("[data-cart-minus]");
   const plus = event.target.closest("[data-cart-plus]");
   if (!minus && !plus) return;
@@ -173,20 +186,22 @@ cartItems?.addEventListener("click", (event) => {
   updateCart();
 });
 
-cartAddress?.addEventListener("input", updateCart);
+cartBoxes.forEach((cartBox) => getCartParts(cartBox).address?.addEventListener("input", updateCart));
 updateCart();
 
-async function startMercadoPagoCheckout() {
-  const address = cartAddress?.value.trim();
+async function startMercadoPagoCheckout(checkoutButton) {
+  const cartBox = checkoutButton.closest(".cart-box");
+  const { address: addressInput } = getCartParts(cartBox);
+  const address = addressInput?.value.trim();
   if (!cart.length) return;
   if (!address) {
     alert("Escribi el domicilio de entrega antes de finalizar la compra.");
-    cartAddress?.focus();
+    addressInput?.focus();
     return;
   }
 
-  cartCheckout.classList.add("loading");
-  cartCheckout.textContent = "Abriendo Mercado Pago...";
+  checkoutButton.classList.add("loading");
+  checkoutButton.textContent = "Abriendo Mercado Pago...";
 
   try {
     const response = await fetch(`${mercadoPagoBackendUrl}/api/create-preference`, {
@@ -202,17 +217,19 @@ async function startMercadoPagoCheckout() {
     window.location.href = paymentUrl;
   } catch (error) {
     console.error(error);
-    alert("No se pudo abrir Mercado Pago. Revisá la conexión o intentá nuevamente en unos minutos.");
+    alert("No se pudo abrir Mercado Pago. Revisa la conexion o intenta nuevamente en unos minutos.");
   } finally {
-    cartCheckout.classList.remove("loading");
-    cartCheckout.textContent = "Finalizar compra";
+    checkoutButton.classList.remove("loading");
+    checkoutButton.textContent = "Finalizar compra";
   }
 }
 
-cartCheckout?.addEventListener("click", (event) => {
-  if (cartCheckout.classList.contains("disabled")) return;
-  event.preventDefault();
-  startMercadoPagoCheckout();
+document.querySelectorAll(".cart-checkout").forEach((checkoutButton) => {
+  checkoutButton.addEventListener("click", (event) => {
+    if (checkoutButton.classList.contains("disabled")) return;
+    event.preventDefault();
+    startMercadoPagoCheckout(checkoutButton);
+  });
 });
 
 detailTriggers.forEach((trigger) => {

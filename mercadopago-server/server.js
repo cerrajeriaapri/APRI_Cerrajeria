@@ -42,6 +42,7 @@ function readBody(request) {
 function normalizeItems(items = []) {
   return items
     .map((item) => ({
+      brand: String(item.brand || "PRIVE").trim().toUpperCase(),
       art: String(item.art || "").trim(),
       name: String(item.name || "").trim(),
       quantity: Number(item.quantity || 0),
@@ -68,15 +69,15 @@ async function createPreference(order) {
   const preference = {
     items: [
       ...items.map((item) => ({
-        id: `PRIVE-${item.art}`,
-        title: `PRIVE ART. ${item.art} - ${item.name}`,
+        id: `${item.brand}-${item.art}`,
+        title: `${item.brand} ART. ${item.art} - ${item.name}`,
         quantity: item.quantity,
         currency_id: "ARS",
         unit_price: item.price,
       })),
       {
         id: "DOMICILIO-20",
-        title: "Domicilio 20%",
+        title: "Envio a domicilio",
         quantity: 1,
         currency_id: "ARS",
         unit_price: delivery,
@@ -95,7 +96,7 @@ async function createPreference(order) {
       subtotal,
       delivery,
       total,
-      items: items.map((item) => `${item.art} x ${item.quantity}`).join(", "),
+      items: items.map((item) => `${item.brand} ${item.art} x ${item.quantity}`).join(", "),
     },
   };
 
