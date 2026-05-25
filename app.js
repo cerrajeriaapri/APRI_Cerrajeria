@@ -9,6 +9,11 @@ const priveCategoryButtons = document.querySelectorAll("[data-prive-filter]");
 const priveProducts = document.querySelector("#catalogo-prive .prive-products");
 const priveCategoryEmpty = document.querySelector("#catalogo-prive .prive-category-empty");
 const priveSelectedTitle = document.querySelector("#priveSelectedTitle");
+const andifCatalogPanel = document.querySelector("#catalogo-andif");
+const andifCategoryButtons = document.querySelectorAll("[data-andif-filter]");
+const andifProducts = document.querySelector("#catalogo-andif .andif-products");
+const andifCategoryEmpty = document.querySelector("#catalogo-andif .prive-category-empty");
+const andifSelectedTitle = document.querySelector("#andifSelectedTitle");
 const lockPhotoInput = document.querySelector("#lockPhotoInput");
 const lockPhotoPreview = document.querySelector("#lockPhotoPreview");
 const homeOpenPhotoInput = document.querySelector("#homeOpenPhotoInput");
@@ -82,60 +87,117 @@ function normalizePriveCategory(title) {
   return "cerraduras";
 }
 
-function setupPriveCategories() {
-  if (!priveProducts || !priveCategoryButtons.length) return;
+function normalizeAndifCategory(title) {
+  const normalized = title
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+  if (normalized.includes("exterior")) return "exterior-interior";
+  if (normalized.includes("cerrojo")) return "cerrojos";
+  if (normalized.includes("corrediza")) return "corrediza";
+  if (normalized.includes("euro")) return "euro";
+  if (normalized.includes("aluminio")) return "aluminio";
+  if (normalized.includes("curvo")) return "frente-curvo";
+  if (normalized.includes("cristal")) return "cristal";
+  if (normalized.includes("caja")) return "cajas-seguridad";
+  return "exterior-interior";
+}
+
+function setupProductCategories(config) {
+  const {
+    panel,
+    buttons,
+    products,
+    emptyMessage,
+    selectedTitle,
+    buttonAttribute,
+    categoryAttribute,
+    selectedClass,
+    normalizeCategory,
+    fallbackCategory,
+  } = config;
+
+  if (!products || !buttons.length) return;
 
   let currentCategory = "";
   const categoryLabels = {};
-  priveProducts.querySelectorAll(".prive-section-title, .prive-product-card").forEach((element) => {
+  products.querySelectorAll(".prive-section-title, .prive-product-card").forEach((element) => {
     if (element.classList.contains("prive-section-title")) {
-      currentCategory = normalizePriveCategory(element.textContent || "");
+      currentCategory = normalizeCategory(element.textContent || "");
       categoryLabels[currentCategory] = element.textContent.trim();
-      element.dataset.priveCategory = currentCategory;
+      element.dataset[categoryAttribute] = currentCategory;
       element.classList.add("is-hidden");
       return;
     }
-    element.dataset.priveCategory = currentCategory || "cerraduras";
+    element.dataset[categoryAttribute] = currentCategory || fallbackCategory;
     element.classList.add("is-hidden");
   });
 
-  priveCategoryButtons.forEach((button) => {
+  buttons.forEach((button) => {
     button.addEventListener("click", () => {
-      const category = button.dataset.priveFilter;
-      priveCatalogPanel?.classList.add("prive-category-selected");
-      priveCategoryButtons.forEach((item) => item.classList.toggle("active", item === button));
-      priveProducts.querySelectorAll("[data-prive-category]").forEach((element) => {
-        element.classList.toggle("is-hidden", element.dataset.priveCategory !== category);
+      const category = button.dataset[buttonAttribute];
+      panel?.classList.add(selectedClass);
+      buttons.forEach((item) => item.classList.toggle("active", item === button));
+      products.querySelectorAll(`[data-${categoryAttribute.replace(/[A-Z]/g, (letter) => `-${letter.toLowerCase()}`)}]`).forEach((element) => {
+        element.classList.toggle("is-hidden", element.dataset[categoryAttribute] !== category);
       });
-      if (priveCategoryEmpty) {
-        priveCategoryEmpty.classList.add("is-hidden");
+      if (emptyMessage) {
+        emptyMessage.classList.add("is-hidden");
       }
-      if (priveSelectedTitle) {
-        priveSelectedTitle.textContent = categoryLabels[category] || button.textContent.trim();
+      if (selectedTitle) {
+        selectedTitle.textContent = categoryLabels[category] || button.textContent.trim();
       }
-      appShell.scrollTo({ top: priveProducts.offsetTop - 12, behavior: "smooth" });
+      appShell.scrollTo({ top: products.offsetTop - 12, behavior: "smooth" });
     });
   });
 }
 
-function resetPriveCategories() {
-  if (!priveProducts || !priveCategoryButtons.length) return;
-  priveCatalogPanel?.classList.remove("prive-category-selected");
-  priveCategoryButtons.forEach((button) => button.classList.remove("active"));
-  priveProducts.querySelectorAll("[data-prive-category]").forEach((element) => {
+function resetProductCategories(config) {
+  const { panel, buttons, products, emptyMessage, selectedTitle, categoryAttribute, selectedClass } = config;
+  if (!products || !buttons.length) return;
+  panel?.classList.remove(selectedClass);
+  buttons.forEach((button) => button.classList.remove("active"));
+  products.querySelectorAll(`[data-${categoryAttribute.replace(/[A-Z]/g, (letter) => `-${letter.toLowerCase()}`)}]`).forEach((element) => {
     element.classList.add("is-hidden");
   });
-  if (priveCategoryEmpty) {
-    priveCategoryEmpty.classList.remove("is-hidden");
+  if (emptyMessage) {
+    emptyMessage.classList.remove("is-hidden");
   }
-  if (priveSelectedTitle) {
-    priveSelectedTitle.textContent = "";
+  if (selectedTitle) {
+    selectedTitle.textContent = "";
   }
 }
 
+const priveCategoryConfig = {
+  panel: priveCatalogPanel,
+  buttons: priveCategoryButtons,
+  products: priveProducts,
+  emptyMessage: priveCategoryEmpty,
+  selectedTitle: priveSelectedTitle,
+  buttonAttribute: "priveFilter",
+  categoryAttribute: "priveCategory",
+  selectedClass: "prive-category-selected",
+  normalizeCategory: normalizePriveCategory,
+  fallbackCategory: "cerraduras",
+};
+
+const andifCategoryConfig = {
+  panel: andifCatalogPanel,
+  buttons: andifCategoryButtons,
+  products: andifProducts,
+  emptyMessage: andifCategoryEmpty,
+  selectedTitle: andifSelectedTitle,
+  buttonAttribute: "andifFilter",
+  categoryAttribute: "andifCategory",
+  selectedClass: "andif-category-selected",
+  normalizeCategory: normalizeAndifCategory,
+  fallbackCategory: "exterior-interior",
+};
+
 updateCurrentTime();
 setInterval(updateCurrentTime, 15000);
-setupPriveCategories();
+setupProductCategories(priveCategoryConfig);
+setupProductCategories(andifCategoryConfig);
 
 document.querySelectorAll("[data-service]").forEach((link) => {
   if (link.dataset.detail) return;
@@ -308,7 +370,10 @@ detailTriggers.forEach((trigger) => {
     const panel = document.querySelector(trigger.getAttribute("href"));
     detailPanels.forEach((detailPanel) => detailPanel.classList.remove("active-detail"));
     if (panel === priveCatalogPanel) {
-      resetPriveCategories();
+      resetProductCategories(priveCategoryConfig);
+    }
+    if (panel === andifCatalogPanel) {
+      resetProductCategories(andifCategoryConfig);
     }
     panel?.classList.add("active-detail");
     appShell.classList.add("detail-open");

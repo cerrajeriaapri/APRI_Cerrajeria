@@ -597,22 +597,31 @@ button {
   display: block;
 }
 
+#catalogo-andif.andif-category-selected .prive-selected-title {
+  display: block;
+}
+
 .prive-products {
   display: grid;
   gap: 14px;
 }
 
 #catalogo-prive .cart-box,
-#catalogo-prive .prive-products {
+#catalogo-prive .prive-products,
+#catalogo-andif .cart-box,
+#catalogo-andif .andif-products {
   display: none;
 }
 
 #catalogo-prive.prive-category-selected .cart-box,
-#catalogo-prive.prive-category-selected .prive-products {
+#catalogo-prive.prive-category-selected .prive-products,
+#catalogo-andif.andif-category-selected .cart-box,
+#catalogo-andif.andif-category-selected .andif-products {
   display: grid;
 }
 
-#catalogo-prive .is-hidden {
+#catalogo-prive .is-hidden,
+#catalogo-andif .is-hidden {
   display: none;
 }
 
