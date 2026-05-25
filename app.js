@@ -200,13 +200,8 @@ async function startMercadoPagoCheckout() {
     if (!paymentUrl) throw new Error("Mercado Pago no devolvio link de pago");
     window.location.href = paymentUrl;
   } catch (error) {
-    const { subtotal, delivery, total } = orderTotals();
-    const order = cart
-      .map((item) => `ART. ${item.art} - ${item.name} x ${item.quantity}: ${formatMoney(item.price * item.quantity)}`)
-      .join("; ");
-    window.location.href = whatsappUrl(
-      `comprar estos productos PRIVE: ${order}. Subtotal: ${formatMoney(subtotal)}. Domicilio 20%: ${formatMoney(delivery)}. Total: ${formatMoney(total)}. Domicilio: ${address}. No pude abrir Mercado Pago automaticamente, quiero coordinar pago`
-    );
+    console.error(error);
+    alert("No se pudo abrir Mercado Pago. Revisá la conexión o intentá nuevamente en unos minutos.");
   } finally {
     cartCheckout.classList.remove("loading");
     cartCheckout.textContent = "Finalizar compra";
