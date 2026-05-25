@@ -4,6 +4,9 @@ const currentTime = document.querySelector("#currentTime");
 const detailTriggers = document.querySelectorAll("[data-detail]");
 const closeDetailButtons = document.querySelectorAll("[data-close-detail]");
 const detailPanels = document.querySelectorAll(".detail-panel");
+const priveCategoryButtons = document.querySelectorAll("[data-prive-filter]");
+const priveProducts = document.querySelector("#catalogo-prive .prive-products");
+const priveCategoryEmpty = document.querySelector("#catalogo-prive .prive-category-empty");
 const lockPhotoInput = document.querySelector("#lockPhotoInput");
 const lockPhotoPreview = document.querySelector("#lockPhotoPreview");
 const homeOpenPhotoInput = document.querySelector("#homeOpenPhotoInput");
@@ -64,8 +67,52 @@ function orderTotals() {
   return { subtotal, delivery, total: subtotal + delivery };
 }
 
+function normalizePriveCategory(title) {
+  const normalized = title
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+  if (normalized.includes("euro")) return "europerfil";
+  if (normalized.includes("cerrojo")) return "cerrojos";
+  if (normalized.includes("candado")) return "candados";
+  if (normalized.includes("eslinga")) return "eslingas";
+  if (normalized.includes("caja")) return "caja-seguridad";
+  return "cerraduras";
+}
+
+function setupPriveCategories() {
+  if (!priveProducts || !priveCategoryButtons.length) return;
+
+  let currentCategory = "";
+  priveProducts.querySelectorAll(".prive-section-title, .prive-product-card").forEach((element) => {
+    if (element.classList.contains("prive-section-title")) {
+      currentCategory = normalizePriveCategory(element.textContent || "");
+      element.dataset.priveCategory = currentCategory;
+      element.hidden = true;
+      return;
+    }
+    element.dataset.priveCategory = currentCategory || "cerraduras";
+    element.hidden = true;
+  });
+
+  priveCategoryButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const category = button.dataset.priveFilter;
+      priveCategoryButtons.forEach((item) => item.classList.toggle("active", item === button));
+      priveProducts.querySelectorAll("[data-prive-category]").forEach((element) => {
+        element.hidden = element.dataset.priveCategory !== category;
+      });
+      if (priveCategoryEmpty) {
+        priveCategoryEmpty.hidden = true;
+      }
+      appShell.scrollTo({ top: priveProducts.offsetTop - 12, behavior: "smooth" });
+    });
+  });
+}
+
 updateCurrentTime();
 setInterval(updateCurrentTime, 15000);
+setupPriveCategories();
 
 document.querySelectorAll("[data-service]").forEach((link) => {
   if (link.dataset.detail) return;
