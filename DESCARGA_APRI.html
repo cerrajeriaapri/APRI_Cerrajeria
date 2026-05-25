@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Descargar Cerrajeria APRI</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --gold: #f5b934;
+      --gold-2: #fff0a8;
+      --black: #050505;
+      --panel: #111111;
+      --line: rgba(245, 185, 52, .42);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: radial-gradient(circle at top, #242016, var(--black) 52%);
+      color: white;
+      padding: 22px;
+    }
+    main {
+      width: min(440px, 100%);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px 22px;
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+      text-align: center;
+      box-shadow: 0 24px 70px rgba(0,0,0,.45);
+    }
+    img.logo {
+      width: 118px;
+      height: 118px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--gold);
+      margin-bottom: 16px;
+    }
+    h1 {
+      margin: 0;
+      color: var(--gold-2);
+      font-size: 28px;
+      letter-spacing: 0;
+    }
+    p {
+      color: rgba(255,255,255,.78);
+      line-height: 1.45;
+      margin: 10px 0 20px;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 56px;
+      margin-top: 12px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 800;
+      color: #080808;
+      background: linear-gradient(180deg, #ffe681, var(--gold));
+      border: 1px solid rgba(255,255,255,.25);
+    }
+    a.secondary {
+      color: white;
+      background: var(--panel);
+      border-color: var(--line);
+    }
+    small {
+      display: block;
+      margin-top: 18px;
+      color: rgba(255,255,255,.58);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="android-app/app/src/main/assets/www/logo.jpeg" alt="Cerrajeria APRI">
+    <h1>Cerrajeria APRI</h1>
+    <p>Descarga la app para pedir servicios de cerrajeria, consultar por WhatsApp y ver nuestras opciones.</p>
+    <a href="https://play.google.com/store/apps/details?id=com.cerrajeriaapri.app">Descargar para Android</a>
+    <a class="secondary" href="#">iPhone: pendiente App Store</a>
+    <a class="secondary" href="https://wa.me/542615188484">Contactar por WhatsApp</a>
+    <small>Cuando la app de iPhone este publicada, se cambia este boton por el link de App Store.</small>
+  </main>
+</body>
+</html>

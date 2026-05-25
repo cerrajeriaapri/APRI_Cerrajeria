@@ -1,0 +1,15 @@
+plugins {
+    id "com.android.application" version "8.6.1" apply false
+}
+
+tasks.register("prepareKotlinBuildScriptModel") {
+    group = "ide"
+    description = "Compatibility task used by Android Studio during project sync."
+}
+
+subprojects {
+    tasks.register("prepareKotlinBuildScriptModel") {
+        group = "ide"
+        description = "Compatibility task used by Android Studio during project sync."
+    }
+}

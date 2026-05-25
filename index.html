@@ -1,0 +1,1194 @@
+﻿<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050505" />
+    <title>Cerrajeria APRI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="phone-shell" id="top" aria-label="Aplicacion Cerrajeria APRI">
+      <header class="topbar">
+        <p id="currentTime" aria-label="Hora actual">--:--</p>
+      </header>
+
+      <section class="brand" aria-label="Marca Cerrajeria APRI">
+        <img class="brand-logo" src="logo.jpeg" alt="Logo Cerrajeria APRI" />
+        <p class="kicker">Cerrajeria</p>
+        <h1>APRI</h1>
+        <div class="gold-line"></div>
+        <p class="tagline">Seguridad &middot; Confianza &middot; Experiencia</p>
+      </section>
+
+      <section class="urgent-actions" aria-label="Contacto por WhatsApp">
+        <a class="action call" href="tel:+542615188484">
+          <span class="action-icon call-icon"><img src="assets/llamar-urgente-elegante.jpeg" alt="" /></span>
+          <span>
+            <strong>Llamar urgente</strong>
+            <small>(2615188484)</small>
+          </span>
+        </a>
+        <a class="action whatsapp" data-service="consulta por WhatsApp">
+          <span class="action-icon whatsapp-icon"><img src="assets/whatsapp-gold.jpeg" alt="" /></span>
+          <span>
+            <strong>WhatsApp</strong>
+            <small>Escribinos</small>
+          </span>
+        </a>
+      </section>
+
+      <section class="services" aria-labelledby="services-title">
+        <div class="section-line">
+          <span></span>
+          <h2 id="services-title">Nuestros servicios</h2>
+          <span></span>
+        </div>
+
+        <div class="service-grid">
+          <a class="service-card" data-detail="unlock-home" href="#destrabe-casa">
+            <img class="service-icon photo-icon" src="assets/destrabe-casa.jpeg" alt="" />
+            <strong>Destrabe casa</strong>
+          </a>
+          <a class="service-card" data-detail="open-home" href="#apertura-casa">
+            <img class="service-icon photo-icon" src="assets/apertura-casa.jpeg" alt="" />
+            <strong>Apertura casa</strong>
+          </a>
+          <a class="service-card" data-detail="open-car" href="#apertura-auto">
+            <img class="service-icon photo-icon" src="assets/apertura-auto-1.jpeg" alt="" />
+            <strong>Apertura auto</strong>
+          </a>
+          <a class="service-card" data-detail="safe-open" href="#apertura-caja-fuerte">
+            <img class="service-icon photo-icon" src="assets/caja-fuerte-nueva.jpeg" alt="" />
+            <strong>Apertura caja fuerte</strong>
+          </a>
+          <a class="service-card" data-detail="copy-home-key" href="#copia-llave-casa">
+            <img class="service-icon photo-icon" src="assets/llave-casa.jpeg" alt="" />
+            <strong>Copias llave casa</strong>
+          </a>
+          <a class="service-card" data-detail="copy-car-key" href="#copia-llave-vehiculo">
+            <img class="service-icon photo-icon" src="assets/llave-auto.jpeg" alt="" />
+            <strong>Copias llave vehiculo</strong>
+          </a>
+          <a class="service-card" data-detail="locks" href="#venta-cerraduras">
+            <img class="service-icon photo-icon" src="assets/venta-cerradura.jpeg" alt="" />
+            <strong>Venta de cerradura</strong>
+          </a>
+          <a class="service-card" data-detail="smart-lock" href="#cerradura-inteligente">
+            <img class="service-icon photo-icon" src="assets/instalacion-programacion-inteligente.png" alt="" />
+            <strong>Cerradura inteligente</strong>
+          </a>
+          <a class="service-card" data-detail="accessories" href="#accesorios">
+            <img class="service-icon photo-icon" src="assets/llavero.jpeg" alt="" />
+            <strong>Accesorios</strong>
+          </a>
+        </div>
+      </section>
+
+      <section class="work-card" aria-label="Trabajamos 24/7">
+        <img class="work-icon" src="assets/atencion-247.jpeg" alt="" />
+        <span>
+          <strong>Trabajamos 24/7</strong>
+          <small>Atencion rapida y profesional</small>
+        </span>
+      </section>
+
+      <section class="benefits" aria-label="Beneficios">
+        <div>
+          <img class="benefit-icon" src="assets/beneficio-atencion-247.jpeg" alt="" />
+          <strong>Atencion 24/7</strong>
+          <small>Siempre disponibles</small>
+        </div>
+        <div>
+          <img class="benefit-icon" src="assets/beneficio-cobertura-gran-mendoza.jpeg" alt="" />
+          <strong>Cobertura en todo Gran Mendoza</strong>
+          <small>Llegamos a tu ubicacion</small>
+        </div>
+        <div>
+          <img class="benefit-icon" src="assets/beneficio-trabajo-garantizado.jpeg" alt="" />
+          <strong>Trabajo garantizado</strong>
+          <small>Calidad y respaldo</small>
+        </div>
+      </section>
+
+      <section class="detail-panel" id="venta-cerraduras" aria-label="Venta de cerraduras">
+        <button class="detail-back" type="button" data-close-detail>&#8592; Servicios</button>
+        <img class="detail-hero" src="assets/venta-cerradura.jpeg" alt="" />
+        <p class="section-kicker">Venta de cerraduras</p>
+        <h2>Cerraduras y pasadores</h2>
+        <div class="detail-options lock-catalog">
+          <a class="lock-option" data-detail="prive-catalog" href="#catalogo-prive">
+            <img class="brand-option-logo" src="assets/prive-logo.jpeg" alt="" />
+            <span>
+              <strong>Prive</strong>
+              <small>Consultar modelos disponibles</small>
+            </span>
+          </a>
+          <a class="lock-option" data-service="consultar precio de cerradura Andif">
+            <img class="brand-option-logo" src="assets/andif-logo.jpeg" alt="" />
+            <span>
+              <strong>Andif</strong>
+              <small>Consultar modelos disponibles</small>
+            </span>
+          </a>
+          <a class="lock-option" data-service="consultar precio de cerradura Roa">
+            <img class="brand-option-logo" src="assets/roa-logo.jpeg" alt="" />
+            <span>
+              <strong>Roa</strong>
+              <small>Consultar modelos disponibles</small>
+            </span>
+          </a>
+          <a class="lock-option" data-service="consultar precio de cerradura Kallay">
+            <img class="brand-option-logo" src="assets/kallay-logo.jpeg" alt="" />
+            <span>
+              <strong>Kallay</strong>
+              <small>Consultar modelos disponibles</small>
+            </span>
+          </a>
+          <a class="lock-option" data-service="consultar precio de cerradura Acytra">
+            <img class="brand-option-logo" src="assets/acytra-logo.jpeg" alt="" />
+            <span>
+              <strong>Acytra</strong>
+              <small>Consultar modelos disponibles</small>
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <section class="detail-panel" id="catalogo-prive" aria-label="Catalogo PRIVE">
+        <button class="detail-back" type="button" data-close-detail>&#8592; Cerraduras</button>
+        <img class="detail-hero" src="assets/prive-logo.jpeg" alt="" />
+        <p class="section-kicker">Catalogo PRIVE</p>
+        <h2>Productos PRIVE</h2>
+        <div class="ai-guide prive-buy-guide">
+          <p>Elegí el producto que necesitás. Los precios son de referencia y se confirman por WhatsApp junto con la forma de pago y el envío.</p>
+          <div class="ai-checklist">
+            <span>1. Elegí artículo y medida</span>
+            <span>2. Enviá tu ubicación</span>
+            <span>3. Calculamos envío por Uber y total a pagar</span>
+          </div>
+        </div>
+        <div class="cart-box" id="priveCart">
+          <div class="cart-head">
+            <span>Tu carrito</span>
+            <strong id="cartCount">0 productos</strong>
+          </div>
+          <div class="cart-items" id="cartItems">
+            <p class="cart-empty">Tocá una cerradura para agregarla al pedido.</p>
+          </div>
+          <label class="field-label cart-address">
+            Domicilio de entrega
+            <input id="cartAddress" type="text" placeholder="Escribí calle, número y zona" />
+          </label>
+          <div class="cart-totals">
+            <span>Productos <strong id="cartSubtotal">$ 0</strong></span>
+            <span>Domicilio 20% <strong id="cartDelivery">$ 0</strong></span>
+            <span class="cart-total">Total <strong id="cartTotal">$ 0</strong></span>
+          </div>
+          <a class="cart-checkout disabled" id="cartCheckout" aria-disabled="true">Finalizar compra</a>
+        </div>
+        <div class="prive-products">
+          <h3 class="prive-section-title">Cerraduras</h3>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-101.png" alt="PRIVE ART 101" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 101</small>
+              <strong>Cerradura liviana de frente angosto</strong>
+              <ul><li>Frente: 183 x 20 mm.</li><li>Caja: 126 x 63 x 12 mm.</li><li>Acabado: hierro zincado.</li><li>Llaves: 1 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 101 - Cerradura liviana de frente angosto. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 10.050." data-cart-art="101" data-cart-name="Cerradura liviana de frente angosto" data-cart-price="10050">Agregar / $ 10.050</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-101-a.png" alt="PRIVE ART 101-A" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 101-A</small>
+              <strong>Cerradura liviana de frente</strong>
+              <ul><li>Frente: 183 x 20 mm.</li><li>Caja: 126 x 50 x 12 mm.</li><li>Acabado: hierro zincado.</li><li>Llaves: 1 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 101-A - Cerradura liviana de frente. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 9.312." data-cart-art="101-A" data-cart-name="Cerradura liviana de frente" data-cart-price="9312">Agregar / $ 9.312</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-102.png" alt="PRIVE ART 102" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 102</small>
+              <strong>Cerradura liviana de frente ancho</strong>
+              <ul><li>Frente: 213 x 25 mm.</li><li>Caja: 126 x 63 x 12 mm.</li><li>Acabado: hierro zincado.</li><li>Llaves: 1 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 102 - Cerradura liviana de frente ancho. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 10.313." data-cart-art="102" data-cart-name="Cerradura liviana de frente ancho" data-cart-price="10313">Agregar / $ 10.313</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-104.png" alt="PRIVE ART 104" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 104</small>
+              <strong>Cerradura reforzada tipo combinación</strong>
+              <ul><li>Frente:230 x 25 mm.</li><li>Caja: 150 x 70 x 14 mm.</li><li>Acabado: hierro zincado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 104 - Cerradura reforzada tipo combinación. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 27.822." data-cart-art="104" data-cart-name="Cerradura reforzada tipo combinación" data-cart-price="27822">Agregar / $ 27.822</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-105.png" alt="PRIVE ART 105" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 105</small>
+              <strong>Cerradura de baño frente angosto</strong>
+              <ul><li>Frente: 183 x 20 mm.</li><li>Caja: 126 x 63 x 12 mm.</li><li>Acabado: hierro zincado.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 105 - Cerradura de baño frente angosto. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 10.042." data-cart-art="105" data-cart-name="Cerradura de baño frente angosto" data-cart-price="10042">Agregar / $ 10.042</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-106.png" alt="PRIVE ART 106" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 106</small>
+              <strong>Cerradura de baño frente ancho</strong>
+              <ul><li>Frente: 213 x 25 mm.</li><li>Caja: 126 x 63 x 12 mm.</li><li>Acabado: hierro zincado.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 106 - Cerradura de baño frente ancho. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 10.713." data-cart-art="106" data-cart-name="Cerradura de baño frente ancho" data-cart-price="10713">Agregar / $ 10.713</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-107.png" alt="PRIVE ART 107" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 107</small>
+              <strong>Cerradura extra reforzada tipo combinación</strong>
+              <ul><li>Frente: 213 x 25 mm.</li><li>Caja: 126 x 63 x 12,5 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 107 - Cerradura extra reforzada tipo combinación. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 19.275." data-cart-art="107" data-cart-name="Cerradura extra reforzada tipo combinación" data-cart-price="19275">Agregar / $ 19.275</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-108.png" alt="PRIVE ART 108" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 108</small>
+              <strong>Picaporte tipo ascensor</strong>
+              <ul><li>Frente: 140 x 25 mm.</li><li>Caja: 83 x 63 x 15 mm.</li><li>Acabado: hierro niquelado.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 108 - Picaporte tipo ascensor. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 14.621." data-cart-art="108" data-cart-name="Picaporte tipo ascensor" data-cart-price="14621">Agregar / $ 14.621</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-109.png" alt="PRIVE ART 109" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 109</small>
+              <strong>Cerradura de baño extra reforzada</strong>
+              <ul><li>Frente: 213 x 25 mm.</li><li>Caja: 126 x 63 x 12,5 mm.</li><li>Acabado: hierro niquelado.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 109 - Cerradura de baño extra reforzada. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 17.599." data-cart-art="109" data-cart-name="Cerradura de baño extra reforzada" data-cart-price="17599">Agregar / $ 17.599</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-120.png" alt="PRIVE ART 120" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 120</small>
+              <strong>Cerradura para puerta corrediza</strong>
+              <ul><li>Frente: 213 x 25 mm.</li><li>Caja: 126 x 63 mm.</li><li>Acabado: hierro zincado.</li><li>Llaves: 1 llave articulada.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 120 - Cerradura para puerta corrediza. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 13.651." data-cart-art="120" data-cart-name="Cerradura para puerta corrediza" data-cart-price="13651">Agregar / $ 13.651</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-121.png" alt="PRIVE ART 121" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 121</small>
+              <strong>Contracaja para puerta corrediza</strong>
+              <ul><li>Frente: 213 x 25 mm.</li><li>Caja: 126 x 63 mm.</li><li>Acabado: hierro zincado.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 121 - Contracaja para puerta corrediza. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 14.535." data-cart-art="121" data-cart-name="Contracaja para puerta corrediza" data-cart-price="14535">Agregar / $ 14.535</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-200.png" alt="PRIVE ART 200" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 200</small>
+              <strong>Cerradura de seguridad</strong>
+              <ul><li>Frente: 220 x 25 mm.</li><li>Caja: 140 x 63 x 15 mm.</li><li>Acabado: hierro zincado</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 200 - Cerradura de seguridad. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 23.621." data-cart-art="200" data-cart-name="Cerradura de seguridad" data-cart-price="23621">Agregar / $ 23.621</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-201.png" alt="PRIVE ART 201" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 201</small>
+              <strong>Cerradura de seguridad doble perno “reforzada”</strong>
+              <ul><li>Frente: 238 x 28 mm.</li><li>Caja: 145 x 68 x 18,5 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 201 - Cerradura de seguridad doble perno “reforzada”. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 36.245." data-cart-art="201" data-cart-name="Cerradura de seguridad doble perno “reforzada”" data-cart-price="36245">Agregar / $ 36.245</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-204.png" alt="PRIVE ART 204" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 204</small>
+              <strong>Cerradura de seguridad angosta doble perno</strong>
+              <ul><li>Frente: 183 x 20 mm.</li><li>Caja: 126 x 40 x 14 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 204 - Cerradura de seguridad angosta doble perno. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 30.764." data-cart-art="204" data-cart-name="Cerradura de seguridad angosta doble perno" data-cart-price="30764">Agregar / $ 30.764</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-205.png" alt="PRIVE ART 205" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 205</small>
+              <strong>Cerradura de seguridad doble perno</strong>
+              <ul><li>Frente: 220 x 25 mm.</li><li>Caja: 140 x 63 x 16 mm.</li><li>Acabado: hierro zincado</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 205 - Cerradura de seguridad doble perno. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 26.141." data-cart-art="205" data-cart-name="Cerradura de seguridad doble perno" data-cart-price="26141">Agregar / $ 26.141</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-206.png" alt="PRIVE ART 206" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 206</small>
+              <strong>Cerradura de seguridad angosta</strong>
+              <ul><li>Frente: 183 x 20 mm.</li><li>Caja: 126 x 40 x 12 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 206 - Cerradura de seguridad angosta. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 27.699." data-cart-art="206" data-cart-name="Cerradura de seguridad angosta" data-cart-price="27699">Agregar / $ 27.699</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-207.png" alt="PRIVE ART 207" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 207</small>
+              <strong>Cerradura de seguridad liviana frente angosto</strong>
+              <ul><li>Frente: 183 x 20 mm.</li><li>Caja: 126 x 63 x 12 mm.</li><li>Acabado: hierro zincado</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 207 - Cerradura de seguridad liviana frente angosto. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 21.589." data-cart-art="207" data-cart-name="Cerradura de seguridad liviana frente angosto" data-cart-price="21589">Agregar / $ 21.589</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-208.png" alt="PRIVE ART 208" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 208</small>
+              <strong>Cerradura de seguridad liviana frente ancho</strong>
+              <ul><li>Frente: 213 x 25 mm.</li><li>Caja: 126 x 63 x 12 mm.</li><li>Acabado: hierro zincado</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 208 - Cerradura de seguridad liviana frente ancho. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 22.198." data-cart-art="208" data-cart-name="Cerradura de seguridad liviana frente ancho" data-cart-price="22198">Agregar / $ 22.198</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-214.png" alt="PRIVE ART 214" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 214</small>
+              <strong>Cerradura de seguridad angosta para puerta corrediza</strong>
+              <ul><li>Frente: 183 x 20 mm.</li><li>Caja: 126 x 40 x 12,5 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 214 - Cerradura de seguridad angosta para puerta corrediza. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 42.764." data-cart-art="214" data-cart-name="Cerradura de seguridad angosta para puerta corrediza" data-cart-price="42764">Agregar / $ 42.764</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-2001.png" alt="PRIVE ART 2001" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 2001</small>
+              <strong>Cerradura de seguridad reforzada doble perno</strong>
+              <ul><li>Frente: 238 x 27 mm.</li><li>Caja: 148 x 73 x 19 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 2001 - Cerradura de seguridad reforzada doble perno. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 35.477." data-cart-art="2001" data-cart-name="Cerradura de seguridad reforzada doble perno" data-cart-price="35477">Agregar / $ 35.477</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-2005.png" alt="PRIVE ART 2005" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 2005</small>
+              <strong>Cerradura de seguridad reforzada con frente largo</strong>
+              <ul><li>Frente: 243 x 28 mm.</li><li>Caja: 142 x 69 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 2005 - Cerradura de seguridad reforzada con frente largo. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 34.285." data-cart-art="2005" data-cart-name="Cerradura de seguridad reforzada con frente largo" data-cart-price="34285">Agregar / $ 34.285</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-2007.png" alt="PRIVE ART 2007" /></div>
+            <div class="prive-product-info">
+              <small>Cerraduras &middot; ART. 2007</small>
+              <strong>Cerradura de seguridad reforzada con frente corto</strong>
+              <ul><li>Frente: 205 x 25 mm.</li><li>Caja: 143 x 69 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 2007 - Cerradura de seguridad reforzada con frente corto. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 33.713." data-cart-art="2007" data-cart-name="Cerradura de seguridad reforzada con frente corto" data-cart-price="33713">Agregar / $ 33.713</a>
+            </div>
+          </article>
+          <h3 class="prive-section-title">Europerfil</h3>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-110.png" alt="PRIVE ART 110" /></div>
+            <div class="prive-product-info">
+              <small>Europerfil &middot; ART. 110</small>
+              <strong>Cerrojo de seguridad europerfil doble perno (Símil 210)</strong>
+              <ul><li>Frente: 140 x 25 mm.</li><li>Caja: 83 x 63 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 5 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 110 - Cerrojo de seguridad europerfil doble perno (Símil 210). Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 39.699." data-cart-art="110" data-cart-name="Cerrojo de seguridad europerfil doble perno (Símil 210)" data-cart-price="39699">Agregar / $ 39.699</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-111.png" alt="PRIVE ART 111" /></div>
+            <div class="prive-product-info">
+              <small>Europerfil &middot; ART. 111</small>
+              <strong>Cerradura de seguridad europerfil (Símil 207)</strong>
+              <ul><li>Frente: 183 x 20 mm.</li><li>Caja: 126 x 63 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 5 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 111 - Cerradura de seguridad europerfil (Símil 207). Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-112.png" alt="PRIVE ART 112" /></div>
+            <div class="prive-product-info">
+              <small>Europerfil &middot; ART. 112</small>
+              <strong>Cerradura de seguridad europerfil doble perno (Símil 2001)</strong>
+              <ul><li>Frente: 238 x 27 mm.</li><li>Caja: 148 x 73 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 5 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 112 - Cerradura de seguridad europerfil doble perno (Símil 2001). Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-113.png" alt="PRIVE ART 113" /></div>
+            <div class="prive-product-info">
+              <small>Europerfil &middot; ART. 113</small>
+              <strong>Cerrojo de seguridad europerfil (Símil 209)</strong>
+              <ul><li>Frente: 140 x 25 mm.</li><li>Caja: 83 x 63 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 5 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 113 - Cerrojo de seguridad europerfil (Símil 209). Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 50.742." data-cart-art="113" data-cart-name="Cerrojo de seguridad europerfil (Símil 209)" data-cart-price="50742">Agregar / $ 50.742</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-114.png" alt="PRIVE ART 114" /></div>
+            <div class="prive-product-info">
+              <small>Europerfil &middot; ART. 114</small>
+              <strong>Cerradura de seguridad europerfil angosta doble perno (Símil 204)</strong>
+              <ul><li>Frente: 183 x 20 mm.</li><li>Caja: 126 x 40 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 5 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 114 - Cerradura de seguridad europerfil angosta doble perno (Símil 204). Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-115.png" alt="PRIVE ART 115" /></div>
+            <div class="prive-product-info">
+              <small>Europerfil &middot; ART. 115</small>
+              <strong>Cerradura de seguridad europerfil angosta (Símil 206)</strong>
+              <ul><li>Frente: 183 x 20 mm.</li><li>Caja: 126 x 40 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 5 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 115 - Cerradura de seguridad europerfil angosta (Símil 206). Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-116.png" alt="PRIVE ART 116" /></div>
+            <div class="prive-product-info">
+              <small>Europerfil &middot; ART. 116</small>
+              <strong>Cerradura de seguridad europerfil liviana</strong>
+              <ul><li>Frente: 213 x 25 mm.</li><li>Caja: 126 x 63 x 12 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 5 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 116 - Cerradura de seguridad europerfil liviana. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-117.png" alt="PRIVE ART 117" /></div>
+            <div class="prive-product-info">
+              <small>Europerfil &middot; ART. 117</small>
+              <strong>Cerradura de seguridad europerfil</strong>
+              <ul><li>Frente: 220 x 25 mm.</li><li>Caja: 140 x 63 x 15 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 5 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 117 - Cerradura de seguridad europerfil. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-118.png" alt="PRIVE ART 118" /></div>
+            <div class="prive-product-info">
+              <small>Europerfil &middot; ART. 118</small>
+              <strong>Cerradura de seguridad europerfil doble perno</strong>
+              <ul><li>Frente: 220 x 25 mm.</li><li>Caja: 140 x 63 x 16 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 5 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 118 - Cerradura de seguridad europerfil doble perno. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 39.539." data-cart-art="118" data-cart-name="Cerradura de seguridad europerfil doble perno" data-cart-price="39539">Agregar / $ 39.539</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-119.png" alt="PRIVE ART 119" /></div>
+            <div class="prive-product-info">
+              <small>Europerfil &middot; ART. 119</small>
+              <strong>Cerradura de seguridad europerfil angosta para puerta corrediza (Símil 214)</strong>
+              <ul><li>Frente: 183 x 20 mm.</li><li>Caja: 126 x 40 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 5 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 119 - Cerradura de seguridad europerfil angosta para puerta corrediza (Símil 214). Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 53.033." data-cart-art="119" data-cart-name="Cerradura de seguridad europerfil angosta para puerta corrediza (Símil 214)" data-cart-price="53033">Agregar / $ 53.033</a>
+            </div>
+          </article>
+          <h3 class="prive-section-title">Cerrojos</h3>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-202.png" alt="PRIVE ART 202" /></div>
+            <div class="prive-product-info">
+              <small>Cerrojos &middot; ART. 202</small>
+              <strong>Cerrojo de seguridad doble perno angosto</strong>
+              <ul><li>Frente: 100 x 18 mm.</li><li>Caja: 67 x 40 x 16 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 202 - Cerrojo de seguridad doble perno angosto. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 23.116." data-cart-art="202" data-cart-name="Cerrojo de seguridad doble perno angosto" data-cart-price="23116">Agregar / $ 23.116</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-203.png" alt="PRIVE ART 203" /></div>
+            <div class="prive-product-info">
+              <small>Cerrojos &middot; ART. 203</small>
+              <strong>Cerrojo de seguridad doble perno “reforzado”</strong>
+              <ul><li>Frente: 142 x 28 mm.</li><li>Caja: 83 x 63 x 19 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 203 - Cerrojo de seguridad doble perno “reforzado”. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 17.972." data-cart-art="203" data-cart-name="Cerrojo de seguridad doble perno “reforzado”" data-cart-price="17972">Agregar / $ 17.972</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-209.png" alt="PRIVE ART 209" /></div>
+            <div class="prive-product-info">
+              <small>Cerrojos &middot; ART. 209</small>
+              <strong>Cerrojo de seguridad pasador rectangular</strong>
+              <ul><li>Frente: 140 x 25 mm.</li><li>Caja: 83 x 63 x 14,5 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 209 - Cerrojo de seguridad pasador rectangular. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 19.910." data-cart-art="209" data-cart-name="Cerrojo de seguridad pasador rectangular" data-cart-price="19910">Agregar / $ 19.910</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-210.png" alt="PRIVE ART 210" /></div>
+            <div class="prive-product-info">
+              <small>Cerrojos &middot; ART. 210</small>
+              <strong>Cerrojo de seguridad doble perno</strong>
+              <ul><li>Frente: 140 x 25 mm.</li><li>Caja: 83 x 63 x 14,5 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 210 - Cerrojo de seguridad doble perno. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 21.967." data-cart-art="210" data-cart-name="Cerrojo de seguridad doble perno" data-cart-price="21967">Agregar / $ 21.967</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-211.png" alt="PRIVE ART 211" /></div>
+            <div class="prive-product-info">
+              <small>Cerrojos &middot; ART. 211</small>
+              <strong>Cerrojo de seguridad de triple perno</strong>
+              <ul><li>Frente: 140 x 25 mm.</li><li>Caja: 83 x 63 x 14.5 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 211 - Cerrojo de seguridad de triple perno. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 16.321." data-cart-art="211" data-cart-name="Cerrojo de seguridad de triple perno" data-cart-price="16321">Agregar / $ 16.321</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-212.png" alt="PRIVE ART 212" /></div>
+            <div class="prive-product-info">
+              <small>Cerrojos &middot; ART. 212</small>
+              <strong>Cerrojo de seguridad para puerta corrediza</strong>
+              <ul><li>Frente: 140 x 25 mm.</li><li>Caja: 83 x 63 x 14.5 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 212 - Cerrojo de seguridad para puerta corrediza. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 31.198." data-cart-art="212" data-cart-name="Cerrojo de seguridad para puerta corrediza" data-cart-price="31198">Agregar / $ 31.198</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-213.png" alt="PRIVE ART 213" /></div>
+            <div class="prive-product-info">
+              <small>Cerrojos &middot; ART. 213</small>
+              <strong>Cerrojo de seguridad para portón levadizo</strong>
+              <ul><li>Frente: 140 x 25 mm.</li><li>Caja: 83 x 63 x 14.5 mm.</li><li>Acabado: hierro zincado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 213 - Cerrojo de seguridad para portón levadizo. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 17.624." data-cart-art="213" data-cart-name="Cerrojo de seguridad para portón levadizo" data-cart-price="17624">Agregar / $ 17.624</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-216.png" alt="PRIVE ART 216" /></div>
+            <div class="prive-product-info">
+              <small>Cerrojos &middot; ART. 216</small>
+              <strong>Cerrojo de arrimar de doble perno</strong>
+              <ul><li>Frente: 18 x 67 mm.</li><li>Caja: 103 x 45 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 216 - Cerrojo de arrimar de doble perno. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 18.761." data-cart-art="216" data-cart-name="Cerrojo de arrimar de doble perno" data-cart-price="18761">Agregar / $ 18.761</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-220.png" alt="PRIVE ART 220" /></div>
+            <div class="prive-product-info">
+              <small>Cerrojos &middot; ART. 220</small>
+              <strong>Cerrojo de seguridad liviano doble perno</strong>
+              <ul><li>Frente: 142,5 x 25 mm.</li><li>Caja: 82 x 65 x 18,5 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 220 - Cerrojo de seguridad liviano doble perno. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-2003.png" alt="PRIVE ART 2003" /></div>
+            <div class="prive-product-info">
+              <small>Cerrojos &middot; ART. 2003</small>
+              <strong>Cerrojo de seguridad reforzado doble perno</strong>
+              <ul><li>Frente: 140 x 27 mm.</li><li>Caja: 82 x 65 x 18,5 mm.</li><li>Acabado: hierro niquelado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 2003 - Cerrojo de seguridad reforzado doble perno. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 19.407." data-cart-art="2003" data-cart-name="Cerrojo de seguridad reforzado doble perno" data-cart-price="19407">Agregar / $ 19.407</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-400.png" alt="PRIVE ART 400" /></div>
+            <div class="prive-product-info">
+              <small>Cerrojos &middot; ART. 400</small>
+              <strong>Cerrojo de aplicar con llave cruz y barra pasante de acero</strong>
+              <ul><li>Acabado: hierro cromado o símil oro.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 400 - Cerrojo de aplicar con llave cruz y barra pasante de acero. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 59.857." data-cart-art="400" data-cart-name="Cerrojo de aplicar con llave cruz y barra pasante de acero" data-cart-price="59857">Agregar / $ 59.857</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-401.png" alt="PRIVE ART 401" /></div>
+            <div class="prive-product-info">
+              <small>Cerrojos &middot; ART. 401</small>
+              <strong>Cerrojo de aplicar con barra pasante de acero y seguro</strong>
+              <ul><li>Acabado: hierro cromado</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 401 - Cerrojo de aplicar con barra pasante de acero y seguro. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-4000.png" alt="PRIVE ART 4000" /></div>
+            <div class="prive-product-info">
+              <small>Cerrojos &middot; ART. 4000</small>
+              <strong>Cerrojo de aplicar con llave cruz y barra pasante de acero</strong>
+              <ul><li>Acabado: hierro cromado.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 4000 - Cerrojo de aplicar con llave cruz y barra pasante de acero. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 23.350." data-cart-art="4000" data-cart-name="Cerrojo de aplicar con llave cruz y barra pasante de acero" data-cart-price="23350">Agregar / $ 23.350</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-123.png" alt="PRIVE ART 123" /></div>
+            <div class="prive-product-info">
+              <small>Cerrojos &middot; ART. 123</small>
+              <strong>Cerrojo para puerta vaivén</strong>
+              <ul><li>Frente: 130 x 23 mm.</li><li>Caja: 64 x 40 x 16 mm.</li><li>Acabado: hierro niquelado.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 123 - Cerrojo para puerta vaivén. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <h3 class="prive-section-title">Candados</h3>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-300.png" alt="PRIVE ART 300" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 300</small>
+              <strong>Candado de seguridad de 50 mm. con aro cementado de 35 mm. y sistema de doble paleta, antiganzúa</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 300 - Candado de seguridad de 50 mm. con aro cementado de 35 mm. y sistema de doble paleta, antiganzúa. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-301.png" alt="PRIVE ART 301" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 301</small>
+              <strong>Candado de seguridad de 50 mm. con aro largo cementado de 122 mm. y sistema de doble paleta, antiganzúa</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 301 - Candado de seguridad de 50 mm. con aro largo cementado de 122 mm. y sistema de doble paleta, antiganzúa. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-305.png" alt="PRIVE ART 305" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 305</small>
+              <strong>Candado de seguridad de 40 mm. Con aro cementado de 35 mm. y sistema de doble paleta, antiganzúa</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 305 - Candado de seguridad de 40 mm. Con aro cementado de 35 mm. y sistema de doble paleta, antiganzúa. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-350.png" alt="PRIVE ART 350" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 350</small>
+              <strong>Candado de bronce doble traba de 25 mm</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 350 - Candado de bronce doble traba de 25 mm. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-351.png" alt="PRIVE ART 351" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 351</small>
+              <strong>Candado de bronce doble traba de 30 mm</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 351 - Candado de bronce doble traba de 30 mm. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-352.png" alt="PRIVE ART 352" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 352</small>
+              <strong>Candado de bronce doble traba de 30 mm. con aro largo 45 mm</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 352 - Candado de bronce doble traba de 30 mm. con aro largo 45 mm. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-353.png" alt="PRIVE ART 353" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 353</small>
+              <strong>Candado de bronce de 30 mm. con combinación numérica</strong>
+              <ul></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 353 - Candado de bronce de 30 mm. con combinación numérica. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-354.png" alt="PRIVE ART 354" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 354</small>
+              <strong>Candado de bronce doble traba de 40 mm</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 354 - Candado de bronce doble traba de 40 mm. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-355.png" alt="PRIVE ART 355" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 355</small>
+              <strong>Candado de bronce doble traba de 40 mm. con aro largo de 55 mm</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 355 - Candado de bronce doble traba de 40 mm. con aro largo de 55 mm. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-356.png" alt="PRIVE ART 356" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 356</small>
+              <strong>Candado de bronce doble traba de 50 mm</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 356 - Candado de bronce doble traba de 50 mm. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-357.png" alt="PRIVE ART 357" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 357</small>
+              <strong>Candado de bronce doble traba de 60 mm</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 357 - Candado de bronce doble traba de 60 mm. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-357-t.png" alt="PRIVE ART 357 T" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 357 T</small>
+              <strong>Candado de tranquera o náutica de 60 mm. Con doble traba a bolilla, aro de bronce, resorte de torsión en acero inoxidable y resortes de combinación de bronce. Ideal para zona marítima</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 357 T - Candado de tranquera o náutica de 60 mm. Con doble traba a bolilla, aro de bronce, resorte de torsión en acero inoxidable y resortes de combinación de bronce. Ideal para zona marítima. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-358.png" alt="PRIVE ART 358" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 358</small>
+              <strong>Candado doble traba horizontal de 30 mm. Con cuerpo de bronce forjado y pasador de acero cementado</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 358 - Candado doble traba horizontal de 30 mm. Con cuerpo de bronce forjado y pasador de acero cementado. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-363.png" alt="PRIVE ART 363" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 363</small>
+              <strong>Candado de bronce doble traba de 50 mm. con aro largo de 90 mm. Con Cuerpo de bronce forjado y pasador de acero cementado</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 363 - Candado de bronce doble traba de 50 mm. con aro largo de 90 mm. Con Cuerpo de bronce forjado y pasador de acero cementado. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-700.png" alt="PRIVE ART 700" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 700</small>
+              <strong>Candado de bronce doble traba de 30mm</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 700 - Candado de bronce doble traba de 30mm. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-701.png" alt="PRIVE ART 701" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 701</small>
+              <strong>Candado de bronce doble traba de 40mm</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 701 - Candado de bronce doble traba de 40mm. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-702.png" alt="PRIVE ART 702" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 702</small>
+              <strong>Candado de bronce doble traba de 50mm</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 702 - Candado de bronce doble traba de 50mm. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-703.png" alt="PRIVE ART 703" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 703</small>
+              <strong>Candado de combinación numérica modificable de 28 mm</strong>
+              <ul></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 703 - Candado de combinación numérica modificable de 28 mm. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-704.png" alt="PRIVE ART 704" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 704</small>
+              <strong>Candado de bronce blindado traba horizontal de 30 mm</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 704 - Candado de bronce blindado traba horizontal de 30 mm. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-705.png" alt="PRIVE ART 705" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 705</small>
+              <strong>Candado de acero laminado doble traba de 30 mm</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 705 - Candado de acero laminado doble traba de 30 mm. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 7.088." data-cart-art="705" data-cart-name="Candado de acero laminado doble traba de 30 mm" data-cart-price="7088">Agregar / $ 7.088</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-706.png" alt="PRIVE ART 706" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 706</small>
+              <strong>Candado de acero laminado doble traba de 40 mm</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 706 - Candado de acero laminado doble traba de 40 mm. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 10.410." data-cart-art="706" data-cart-name="Candado de acero laminado doble traba de 40 mm" data-cart-price="10410">Agregar / $ 10.410</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-707.png" alt="PRIVE ART 707" /></div>
+            <div class="prive-product-info">
+              <small>Candados &middot; ART. 707</small>
+              <strong>Candado de acero laminado doble traba de 50 mm</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 707 - Candado de acero laminado doble traba de 50 mm. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 14.784." data-cart-art="707" data-cart-name="Candado de acero laminado doble traba de 50 mm" data-cart-price="14784">Agregar / $ 14.784</a>
+            </div>
+          </article>
+          <h3 class="prive-section-title">Eslingas</h3>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-302.png" alt="PRIVE ART 302" /></div>
+            <div class="prive-product-info">
+              <small>Eslingas &middot; ART. 302</small>
+              <strong>Eslinga con candado de seguridad de 700 mm. La eslinga es de acero, con un candado de 50mm., forrada en PVC y sistema de doble paleta, antiganzúa</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 302 - Eslinga con candado de seguridad de 700 mm. La eslinga es de acero, con un candado de 50mm., forrada en PVC y sistema de doble paleta, antiganzúa. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 27.109." data-cart-art="302" data-cart-name="Eslinga con candado de seguridad de 700 mm. La eslinga es de acero, con un candado de 50mm., forrada en PVC y sistema de doble paleta, antiganzúa" data-cart-price="27109">Agregar / $ 27.109</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-303.png" alt="PRIVE ART 303" /></div>
+            <div class="prive-product-info">
+              <small>Eslingas &middot; ART. 303</small>
+              <strong>Eslinga con candado de seguridad de 1000 mm. La eslinga es de acero, con un candado de 50mm., forrada en PVC. y sistema de doble paleta, antiganzúa</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 303 - Eslinga con candado de seguridad de 1000 mm. La eslinga es de acero, con un candado de 50mm., forrada en PVC. y sistema de doble paleta, antiganzúa. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 27.510." data-cart-art="303" data-cart-name="Eslinga con candado de seguridad de 1000 mm. La eslinga es de acero, con un candado de 50mm., forrada en PVC. y sistema de doble paleta, antiganzúa" data-cart-price="27510">Agregar / $ 27.510</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-304.png" alt="PRIVE ART 304" /></div>
+            <div class="prive-product-info">
+              <small>Eslingas &middot; ART. 304</small>
+              <strong>Eslinga con candado de seguridad de 1200 mm. La eslinga es de acero, con un candado de 50mm., forrada en PVC. y sistema de doble paleta, antiganzúa</strong>
+              <ul><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 304 - Eslinga con candado de seguridad de 1200 mm. La eslinga es de acero, con un candado de 50mm., forrada en PVC. y sistema de doble paleta, antiganzúa. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar" data-no-cart="true">Comprar / consultar precio</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-359.png" alt="PRIVE ART 359" /></div>
+            <div class="prive-product-info">
+              <small>Eslingas &middot; ART. 359</small>
+              <strong>Eslinga con combinación numérica. Forrada en PVC</strong>
+              <ul><li>Medidas: 1 mt. de largo por 5 mm. de espesor.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 359 - Eslinga con combinación numérica. Forrada en PVC. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 17.209." data-cart-art="359" data-cart-name="Eslinga con combinación numérica. Forrada en PVC" data-cart-price="17209">Agregar / $ 17.209</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-360.png" alt="PRIVE ART 360" /></div>
+            <div class="prive-product-info">
+              <small>Eslingas &middot; ART. 360</small>
+              <strong>Eslinga para candado de 1 mt. Forrada en PVC</strong>
+              <ul><li>Medidas: 1 mt. de largo por 5 mm. de espesor.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 360 - Eslinga para candado de 1 mt. Forrada en PVC. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 9.594." data-cart-art="360" data-cart-name="Eslinga para candado de 1 mt. Forrada en PVC" data-cart-price="9594">Agregar / $ 9.594</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-361.png" alt="PRIVE ART 361" /></div>
+            <div class="prive-product-info">
+              <small>Eslingas &middot; ART. 361</small>
+              <strong>Eslinga para candado de 1,20 mts. Forrada en PVC</strong>
+              <ul><li>Medidas: 1,20 mts. de</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 361 - Eslinga para candado de 1,20 mts. Forrada en PVC. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 15.191." data-cart-art="361" data-cart-name="Eslinga para candado de 1,20 mts. Forrada en PVC" data-cart-price="15191">Agregar / $ 15.191</a>
+            </div>
+          </article>
+          <h3 class="prive-section-title">Cajas de seguridad</h3>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-501.png" alt="PRIVE ART 501" /></div>
+            <div class="prive-product-info">
+              <small>Cajas de seguridad &middot; ART. 501</small>
+              <strong>Caja de seguridad de empotrar. Con cerrojo de seguridad doble perno incorporado</strong>
+              <ul><li>Medidas: 20 cm. de anch.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 501 - Caja de seguridad de empotrar. Con cerrojo de seguridad doble perno incorporado. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 92.182." data-cart-art="501" data-cart-name="Caja de seguridad de empotrar. Con cerrojo de seguridad doble perno incorporado" data-cart-price="92182">Agregar / $ 92.182</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-502.png" alt="PRIVE ART 502" /></div>
+            <div class="prive-product-info">
+              <small>Cajas de seguridad &middot; ART. 502</small>
+              <strong>Caja de seguridad de empotrar. Con cerrojo de seguridad doble perno incorporado</strong>
+              <ul><li>Medidas: 25 cm. de anch.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 502 - Caja de seguridad de empotrar. Con cerrojo de seguridad doble perno incorporado. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 94.304." data-cart-art="502" data-cart-name="Caja de seguridad de empotrar. Con cerrojo de seguridad doble perno incorporado" data-cart-price="94304">Agregar / $ 94.304</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-503.png" alt="PRIVE ART 503" /></div>
+            <div class="prive-product-info">
+              <small>Cajas de seguridad &middot; ART. 503</small>
+              <strong>Caja de seguridad de empotrar. Con cerrojo de seguridad doble perno incorporado</strong>
+              <ul><li>Medidas: 28 cm. de anch.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 503 - Caja de seguridad de empotrar. Con cerrojo de seguridad doble perno incorporado. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 96.825." data-cart-art="503" data-cart-name="Caja de seguridad de empotrar. Con cerrojo de seguridad doble perno incorporado" data-cart-price="96825">Agregar / $ 96.825</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-504.png" alt="PRIVE ART 504" /></div>
+            <div class="prive-product-info">
+              <small>Cajas de seguridad &middot; ART. 504</small>
+              <strong>Caja de seguridad de empotrar con estante. Y cerrojo de seguridad doble perno incorporado</strong>
+              <ul><li>Medidas: 35 cm. de anch.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 504 - Caja de seguridad de empotrar con estante. Y cerrojo de seguridad doble perno incorporado. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 126.734." data-cart-art="504" data-cart-name="Caja de seguridad de empotrar con estante. Y cerrojo de seguridad doble perno incorporado" data-cart-price="126734">Agregar / $ 126.734</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-505.png" alt="PRIVE ART 505" /></div>
+            <div class="prive-product-info">
+              <small>Cajas de seguridad &middot; ART. 505</small>
+              <strong>Caja de seguridad de arrimar. Con cerrojo de seguridad doble perno incorporado</strong>
+              <ul><li>Medidas: 24 cm. de anch.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 505 - Caja de seguridad de arrimar. Con cerrojo de seguridad doble perno incorporado. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 86.678." data-cart-art="505" data-cart-name="Caja de seguridad de arrimar. Con cerrojo de seguridad doble perno incorporado" data-cart-price="86678">Agregar / $ 86.678</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-506.png" alt="PRIVE ART 506" /></div>
+            <div class="prive-product-info">
+              <small>Cajas de seguridad &middot; ART. 506</small>
+              <strong>Caja de seguridad de arrimar. Con cerrojo de seguridad doble perno incorporado</strong>
+              <ul><li>Medidas: 25 cm. de anch.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 506 - Caja de seguridad de arrimar. Con cerrojo de seguridad doble perno incorporado. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 107.436." data-cart-art="506" data-cart-name="Caja de seguridad de arrimar. Con cerrojo de seguridad doble perno incorporado" data-cart-price="107436">Agregar / $ 107.436</a>
+            </div>
+          </article>
+          <article class="prive-product-card">
+            <div class="prive-product-media"><img src="assets/prive-products/prive-507.png" alt="PRIVE ART 507" /></div>
+            <div class="prive-product-info">
+              <small>Cajas de seguridad &middot; ART. 507</small>
+              <strong>Caja de seguridad de empotrar con buzón reforzado con planchuelas. Y cerrojo de seguridad doble perno incorporado</strong>
+              <ul><li>Medidas: 25 cm. de anch.</li><li>Llaves: 2 por unidad.</li></ul>
+              <a class="buy-whatsapp" data-service="comprar PRIVE ART 507 - Caja de seguridad de empotrar con buzón reforzado con planchuelas. Y cerrojo de seguridad doble perno incorporado. Quiero confirmar precio, forma de pago, enviar mi ubicacion y calcular envio por Uber para saber el total a pagar. Precio de referencia: $ 124.148." data-cart-art="507" data-cart-name="Caja de seguridad de empotrar con buzón reforzado con planchuelas. Y cerrojo de seguridad doble perno incorporado" data-cart-price="124148">Agregar / $ 124.148</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="detail-panel" id="destrabe-casa" aria-label="Asistente para destrabe casa">
+        <button class="detail-back" type="button" data-close-detail>&#8592; Servicios</button>
+        <img class="detail-hero" src="assets/destrabe-casa.jpeg" alt="" />
+        <p class="section-kicker">Asistente IA</p>
+        <h2>Destrabe casa</h2>
+        <div class="ai-guide">
+          <p>Para ayudarte mas rapido, mandanos una foto clara de la boca llave de la cerradura.</p>
+          <label class="photo-upload">
+            <span>Subir foto de la boca llave</span>
+            <input id="lockPhotoInput" type="file" accept="image/*" capture="environment" />
+          </label>
+          <img class="photo-preview" id="lockPhotoPreview" alt="Vista previa de la boca llave" />
+          <div class="ai-checklist">
+            <span>1. Foto de frente</span>
+            <span>2. Buena luz</span>
+            <span>3. Enviar ubicacion por WhatsApp</span>
+          </div>
+          <a class="smart-whatsapp" data-service="destrabe casa. Ya tengo una foto de la boca llave y voy a enviar mi ubicacion por WhatsApp">
+            Enviar consulta guiada
+          </a>
+        </div>
+      </section>
+
+      <section class="detail-panel" id="apertura-casa" aria-label="Asistente para apertura casa">
+        <button class="detail-back" type="button" data-close-detail>&#8592; Servicios</button>
+        <img class="detail-hero" src="assets/apertura-casa.jpeg" alt="" />
+        <p class="section-kicker">Asistente IA</p>
+        <h2>Apertura casa</h2>
+        <div class="ai-guide">
+          <p>Selecciona que paso y subi una foto de la boca llave de la cerradura para identificar el trabajo.</p>
+          <div class="option-toggle" role="group" aria-label="Motivo de apertura casa">
+            <button class="reason-option active" type="button" data-home-reason="perdida de llaves">Perdida de llaves</button>
+            <button class="reason-option" type="button" data-home-reason="quedaron adentro las llaves">Quedaron adentro las llaves</button>
+          </div>
+          <label class="photo-upload">
+            <span>Subir foto de la boca llave</span>
+            <input id="homeOpenPhotoInput" type="file" accept="image/*" capture="environment" />
+          </label>
+          <img class="photo-preview" id="homeOpenPhotoPreview" alt="Vista previa de la boca llave" />
+          <div class="ai-checklist">
+            <span>1. Foto clara de la cerradura</span>
+            <span>2. Indicar si es puerta principal o interior</span>
+            <span>3. Enviar ubicacion por WhatsApp</span>
+          </div>
+          <a class="smart-whatsapp" id="homeOpenWhatsapp" data-service="apertura casa por perdida de llaves. Ya tengo una foto de la boca llave para enviar por WhatsApp">
+            Enviar consulta guiada
+          </a>
+        </div>
+      </section>
+
+      <section class="detail-panel" id="apertura-auto" aria-label="Asistente para apertura auto">
+        <button class="detail-back" type="button" data-close-detail>&#8592; Servicios</button>
+        <img class="detail-hero" src="assets/apertura-auto-1.jpeg" alt="" />
+        <p class="section-kicker">Asistente IA</p>
+        <h2>Apertura auto</h2>
+        <div class="ai-guide">
+          <p>Para ayudarte mas rapido, decinos que vehiculo es antes de enviarnos el pedido.</p>
+          <label class="field-label">
+            Vehiculo
+            <input id="vehicleInput" type="text" placeholder="Ej: Toyota Corolla 2018" />
+          </label>
+          <label class="field-label">
+            AÃ±o del vehiculo
+            <input id="vehicleYearInput" type="text" inputmode="numeric" placeholder="Ej: 2018" />
+          </label>
+          <div class="ai-checklist">
+            <span>1. Marca y modelo</span>
+            <span>2. AÃ±o del vehiculo</span>
+            <span>3. Enviar ubicacion por WhatsApp</span>
+          </div>
+          <a class="smart-whatsapp" id="vehicleWhatsapp" data-service="apertura auto">
+            Enviar consulta guiada
+          </a>
+        </div>
+      </section>
+
+      <section class="detail-panel" id="apertura-caja-fuerte" aria-label="Asistente para apertura caja fuerte">
+        <button class="detail-back" type="button" data-close-detail>&#8592; Servicios</button>
+        <img class="detail-hero" src="assets/caja-fuerte-nueva.jpeg" alt="" />
+        <p class="section-kicker">Asistente IA</p>
+        <h2>Apertura caja fuerte</h2>
+        <div class="ai-guide">
+          <p>Selecciona el servicio y subi una foto del frente de la caja fuerte para identificar el modelo.</p>
+          <div class="option-toggle" role="group" aria-label="Tipo de servicio para caja fuerte">
+            <button class="reason-option active" type="button" data-safe-reason="apertura sola">Apertura sola</button>
+            <button class="reason-option" type="button" data-safe-reason="apertura y creacion de llave">Apertura y creacion de llave</button>
+          </div>
+          <label class="photo-upload">
+            <span>Subir foto del frente</span>
+            <input id="safePhotoInput" type="file" accept="image/*" capture="environment" />
+          </label>
+          <img class="photo-preview" id="safePhotoPreview" alt="Vista previa del frente de la caja fuerte" />
+          <div class="ai-checklist">
+            <span>1. Foto completa del frente</span>
+            <span>2. Mostrar teclado, dial o cerradura</span>
+            <span>3. Enviar ubicacion por WhatsApp</span>
+          </div>
+          <a class="smart-whatsapp" id="safeWhatsapp" data-service="apertura de caja fuerte, apertura sola. Ya tengo una foto del frente y voy a enviar mi ubicacion por WhatsApp">
+            Enviar consulta guiada
+          </a>
+        </div>
+      </section>
+
+      <section class="detail-panel" id="copia-llave-casa" aria-label="Asistente para copia llave casa">
+        <button class="detail-back" type="button" data-close-detail>&#8592; Servicios</button>
+        <img class="detail-hero" src="assets/llave-casa.jpeg" alt="" />
+        <p class="section-kicker">Asistente IA</p>
+        <h2>Copias llave casa</h2>
+        <div class="ai-guide">
+          <p>Mandanos una foto clara de la llave. Asi podemos revisar si se puede copiar y el cliente puede venir al taller.</p>
+          <label class="photo-upload">
+            <span>Subir foto de la llave</span>
+            <input id="homeKeyPhotoInput" type="file" accept="image/*" capture="environment" />
+          </label>
+          <img class="photo-preview" id="homeKeyPhotoPreview" alt="Vista previa de la llave" />
+          <div class="ai-checklist">
+            <span>1. Foto de ambos lados si es posible</span>
+            <span>2. Que se vean bien los dientes</span>
+            <span>3. Venir al taller con la llave original</span>
+          </div>
+          <a class="smart-whatsapp" data-service="copia de llave casa. Voy a enviar una foto de la llave para que la revisen">
+            Enviar foto por WhatsApp
+          </a>
+          <a
+            class="location-link"
+            href="https://www.google.com/maps/search/?api=1&query=Cerrajeria%20APRI%20Mendoza"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Ver ubicacion del taller
+          </a>
+        </div>
+      </section>
+
+      <section class="detail-panel" id="copia-llave-vehiculo" aria-label="Asistente para copia llave vehiculo">
+        <button class="detail-back" type="button" data-close-detail>&#8592; Servicios</button>
+        <img class="detail-hero" src="assets/llave-auto.jpeg" alt="" />
+        <p class="section-kicker">Asistente IA</p>
+        <h2>Copias llave vehiculo</h2>
+        <div class="ai-guide">
+          <p>Para revisar si se puede copiar, decinos que vehiculo es, el aÃ±o y subi foto de la llave que tenes.</p>
+          <label class="field-label">
+            Vehiculo
+            <input id="carKeyVehicleInput" type="text" placeholder="Ej: Fiat Cronos" />
+          </label>
+          <label class="field-label">
+            AÃ±o del vehiculo
+            <input id="carKeyYearInput" type="text" inputmode="numeric" placeholder="Ej: 2020" />
+          </label>
+          <label class="photo-upload">
+            <span>Subir foto de la llave</span>
+            <input id="carKeyPhotoInput" type="file" accept="image/*" capture="environment" />
+          </label>
+          <img class="photo-preview" id="carKeyPhotoPreview" alt="Vista previa de la llave del vehiculo" />
+          <div class="ai-checklist">
+            <span>1. Marca y modelo del vehiculo</span>
+            <span>2. AÃ±o del vehiculo</span>
+            <span>3. Foto clara de la llave</span>
+          </div>
+          <a class="smart-whatsapp" id="carKeyWhatsapp" data-service="copia llave vehiculo">
+            Enviar consulta guiada
+          </a>
+        </div>
+      </section>
+
+      <section class="detail-panel" id="cerradura-inteligente" aria-label="Asistente para cerradura inteligente">
+        <button class="detail-back" type="button" data-close-detail>&#8592; Servicios</button>
+        <img class="detail-hero" src="assets/instalacion-programacion-inteligente.png" alt="" />
+        <p class="section-kicker">Asistente IA</p>
+        <h2>Cerradura inteligente</h2>
+        <div class="ai-guide">
+          <p>Este servicio es para instalar cerraduras inteligentes que el cliente ya compro.</p>
+          <div class="option-toggle" role="group" aria-label="Tipo de servicio para cerradura inteligente">
+            <button class="reason-option active" type="button" data-smart-lock-reason="solo instalar">Solo instalar</button>
+            <button class="reason-option" type="button" data-smart-lock-reason="instalar y programar">Instalar y programar</button>
+          </div>
+          <label class="photo-upload">
+            <span>Foto de la puerta</span>
+            <input id="smartDoorPhotoInput" type="file" accept="image/*" capture="environment" />
+          </label>
+          <img class="photo-preview" id="smartDoorPhotoPreview" alt="Vista previa de la puerta" />
+          <label class="photo-upload">
+            <span>Foto de la cerradura comprada</span>
+            <input id="smartLockPhotoInput" type="file" accept="image/*" capture="environment" />
+          </label>
+          <img class="photo-preview" id="smartLockPhotoPreview" alt="Vista previa de la cerradura inteligente" />
+          <div class="ai-checklist">
+            <span>1. Foto de la puerta donde se instala</span>
+            <span>2. Foto de la cerradura que compro</span>
+            <span>3. Enviar ubicacion por WhatsApp</span>
+          </div>
+          <a class="smart-whatsapp" id="smartLockWhatsapp" data-service="cerradura inteligente, solo instalar. Voy a enviar foto de la puerta, foto de la cerradura comprada y mi ubicacion por WhatsApp">
+            Enviar consulta guiada
+          </a>
+        </div>
+      </section>
+
+      <section class="detail-panel" id="accesorios" aria-label="Catalogo de accesorios">
+        <button class="detail-back" type="button" data-close-detail>&#8592; Servicios</button>
+        <img class="detail-hero" src="assets/llavero.jpeg" alt="" />
+        <p class="section-kicker">Catalogo</p>
+        <h2>Accesorios</h2>
+        <div class="detail-options lock-catalog">
+          <a class="lock-option" data-service="consultar precio de llaveros de marca de auto">
+            <img src="assets/llavero-marca-auto.jpeg" alt="" />
+            <span>
+              <strong>Llaveros marca auto</strong>
+              <small>Consultar modelos disponibles</small>
+            </span>
+          </a>
+          <a class="lock-option" data-service="consultar precio de fundas para llave de vehiculo">
+            <img src="assets/funda-llave-vehiculo.jpeg" alt="" />
+            <span>
+              <strong>Fundas llave vehiculo</strong>
+              <small>Proteccion para controles y llaves</small>
+            </span>
+          </a>
+          <a class="lock-option" data-service="consultar precio de llaveros para casa">
+            <img src="assets/llavero-casa.jpeg" alt="" />
+            <span>
+              <strong>Llaveros para casa</strong>
+              <small>Opciones simples y elegantes</small>
+            </span>
+          </a>
+          <a class="lock-option" data-service="consultar precio de llaveros identificadores">
+            <img class="compact-product-image" src="assets/llavero-senalador.jpeg" alt="" />
+            <span>
+              <strong>Llaveros identificadores</strong>
+              <small>Para identificar llaves rapido</small>
+            </span>
+          </a>
+          <a class="lock-option" data-service="consultar precio de llavero cintas">
+            <img class="compact-product-image" src="assets/llavero-cintas.jpeg" alt="" />
+            <span>
+              <strong>Llavero cintas</strong>
+              <small>Cintas y tiras para llaves</small>
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <nav class="bottom-nav" aria-label="Navegacion principal">
+        <a class="active" data-service="inicio"><img class="nav-icon" src="assets/casa.jpeg" alt="" /><span>Inicio</span></a>
+        <a
+          href="https://g.page/r/CaqRZ1P6rx3mEAE/review"
+          target="_blank"
+          rel="noreferrer"
+        ><img class="nav-icon review-nav-icon" src="assets/resenas-google.jpeg" alt="" /><span>RESE&Ntilde;AS</span></a>
+        <a
+          href="https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyEAgBEC4YrwEYxwEYgAQYjgUyCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yBggFEEUYPDIGCAYQRRg8MgYIBxBFGEHSAQkxMjI5MGowajeoAgiwAgHxBfFDEbY680TN8QXxQxG2OvNEzQ&um=1&ie=UTF-8&fb=1&gl=ar&sa=X&geocode=KeVAKlzSD36WMaqRZ1P6rx3m&daddr=Tropero+Sosa+360,+M5519+San+Jos%C3%A9,+Mendoza"
+          target="_blank"
+          rel="noreferrer"
+        ><img class="nav-icon location-nav-icon" src="assets/ubicacion-nav.jpeg" alt="" /><span>Ubicacion</span></a>
+      </nav>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+

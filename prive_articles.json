@@ -1,0 +1,776 @@
+[
+  {
+    "page": 4,
+    "index_on_page": 0,
+    "art": "101",
+    "name": "Articulo 101",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 4,
+    "index_on_page": 1,
+    "art": "101-A",
+    "name": "• Cerradura liviana de frente angosto",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 5,
+    "index_on_page": 0,
+    "art": "102",
+    "name": "Articulo 102",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 5,
+    "index_on_page": 1,
+    "art": "104",
+    "name": "• Cerradura liviana de frente ancho",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 6,
+    "index_on_page": 0,
+    "art": "105",
+    "name": "Articulo 105",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 6,
+    "index_on_page": 1,
+    "art": "106",
+    "name": "• Cerradura de baño frente angosto",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 7,
+    "index_on_page": 0,
+    "art": "107",
+    "name": "Articulo 107",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 7,
+    "index_on_page": 1,
+    "art": "108",
+    "name": "• Cerradura extra reforzada tipo combinación",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 8,
+    "index_on_page": 0,
+    "art": "109",
+    "name": "• Cerradura de baño extra reforzada",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 8,
+    "index_on_page": 1,
+    "art": "120",
+    "name": "• Cerradura para puerta corrediza",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 9,
+    "index_on_page": 0,
+    "art": "121",
+    "name": "• Contracaja para puerta corrediza",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 9,
+    "index_on_page": 1,
+    "art": "200",
+    "name": "• Cerradura de seguridad. • Acabado: hierro zincado",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 10,
+    "index_on_page": 0,
+    "art": "201",
+    "name": "• Cerradura de seguridad doble perno “reforzada”",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 10,
+    "index_on_page": 1,
+    "art": "204",
+    "name": "• Cerradura de seguridad angosta doble perno",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 11,
+    "index_on_page": 0,
+    "art": "205",
+    "name": "• Cerradura de seguridad doble perno",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 11,
+    "index_on_page": 1,
+    "art": "206",
+    "name": "• Cerradura de seguridad angosta",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 12,
+    "index_on_page": 0,
+    "art": "208",
+    "name": "• Cerradura de seguridad liviana frente ancho",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 12,
+    "index_on_page": 1,
+    "art": "207",
+    "name": "• Cerradura de seguridad liviana frente angosto",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 13,
+    "index_on_page": 0,
+    "art": "214",
+    "name": "• Cerradura de seguridad angosta para puerta corrediza",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 13,
+    "index_on_page": 1,
+    "art": "2001",
+    "name": "• Cerradura de seguridad reforzada doble perno",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 14,
+    "index_on_page": 0,
+    "art": "2005",
+    "name": "• Cerradura de seguridad reforzada con frente largo",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 14,
+    "index_on_page": 1,
+    "art": "2007",
+    "name": "• Cerradura de seguridad reforzada con frente corto",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 16,
+    "index_on_page": 0,
+    "art": "110",
+    "name": "• Cerrojo de seguridad europerfil doble perno",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 16,
+    "index_on_page": 1,
+    "art": "111",
+    "name": "• Cerradura de seguridad europerfil (Símil 207)",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 17,
+    "index_on_page": 0,
+    "art": "112",
+    "name": "Articulo 112",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 17,
+    "index_on_page": 1,
+    "art": "113",
+    "name": "• Cerradura de seguridad europerfil doble perno",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 18,
+    "index_on_page": 0,
+    "art": "115",
+    "name": "• Cerradura de seguridad europerfil angosta",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 18,
+    "index_on_page": 1,
+    "art": "114",
+    "name": "EUROPERFIL",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 19,
+    "index_on_page": 0,
+    "art": "117",
+    "name": "• Cerradura de seguridad europerfil",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 19,
+    "index_on_page": 1,
+    "art": "116",
+    "name": "EUROPERFIL",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 20,
+    "index_on_page": 0,
+    "art": "119",
+    "name": "• Cerradura de seguridad europerfil angosta para",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 20,
+    "index_on_page": 1,
+    "art": "118",
+    "name": "EUROPERFIL",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 22,
+    "index_on_page": 0,
+    "art": "202",
+    "name": "Articulo 202",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 22,
+    "index_on_page": 1,
+    "art": "203",
+    "name": "• Cerrojo de seguridad doble perno angosto",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 23,
+    "index_on_page": 0,
+    "art": "209",
+    "name": "Articulo 209",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 23,
+    "index_on_page": 1,
+    "art": "210",
+    "name": "• Cerrojo de seguridad pasador rectangular",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 24,
+    "index_on_page": 0,
+    "art": "211",
+    "name": "Articulo 211",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 24,
+    "index_on_page": 1,
+    "art": "212",
+    "name": "• Cerrojo de seguridad de triple perno",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 25,
+    "index_on_page": 0,
+    "art": "213",
+    "name": "Articulo 213",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 25,
+    "index_on_page": 1,
+    "art": "216",
+    "name": "• Cerrojo de seguridad para portón levadizo",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 26,
+    "index_on_page": 0,
+    "art": "220",
+    "name": "Articulo 220",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 26,
+    "index_on_page": 1,
+    "art": "2003",
+    "name": "• Cerrojo de seguridad liviano doble perno",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 27,
+    "index_on_page": 0,
+    "art": "400",
+    "name": "Articulo 400",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 27,
+    "index_on_page": 1,
+    "art": "401",
+    "name": "• Cerrojo de aplicar con llave cruz y barra pasante de acero",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 28,
+    "index_on_page": 0,
+    "art": "4000",
+    "name": "• Cerrojo de aplicar con llave cruz y barra pasante de acero",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 28,
+    "index_on_page": 1,
+    "art": "123",
+    "name": "• Cerrojo para puerta vaivén. • Acabado: hierro niquelado",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 30,
+    "index_on_page": 0,
+    "art": "300",
+    "name": "Articulo 300",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 30,
+    "index_on_page": 1,
+    "art": "301",
+    "name": "• Candado de seguridad de 50 mm. con aro cementado de 35 mm",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 31,
+    "index_on_page": 0,
+    "art": "305",
+    "name": "Articulo 305",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 31,
+    "index_on_page": 1,
+    "art": "350",
+    "name": "• Candado de seguridad de 40 mm. Con aro cementado de 35 mm",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 32,
+    "index_on_page": 0,
+    "art": "351",
+    "name": "Articulo 351",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 32,
+    "index_on_page": 1,
+    "art": "352",
+    "name": "• Candado de bronce doble traba de 30 mm",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 33,
+    "index_on_page": 0,
+    "art": "353",
+    "name": "Articulo 353",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 33,
+    "index_on_page": 1,
+    "art": "354",
+    "name": "• Candado de bronce de 30 mm. con",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 34,
+    "index_on_page": 0,
+    "art": "355",
+    "name": "Articulo 355",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 34,
+    "index_on_page": 1,
+    "art": "356",
+    "name": "• Candado de bronce doble traba de 40 mm. con aro",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 35,
+    "index_on_page": 0,
+    "art": "357",
+    "name": "Articulo 357",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 35,
+    "index_on_page": 1,
+    "art": "357",
+    "name": "• Candado de bronce doble traba de 60 mm",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 36,
+    "index_on_page": 0,
+    "art": "358",
+    "name": "Articulo 358",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 36,
+    "index_on_page": 1,
+    "art": "363",
+    "name": "• Candado doble traba horizontal de 30 mm",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 37,
+    "index_on_page": 0,
+    "art": "700",
+    "name": "Articulo 700",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 37,
+    "index_on_page": 1,
+    "art": "701",
+    "name": "• Candado de bronce doble traba de 30mm",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 38,
+    "index_on_page": 0,
+    "art": "702",
+    "name": "Articulo 702",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 38,
+    "index_on_page": 1,
+    "art": "703",
+    "name": "• Candado de bronce doble traba de 50mm",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 39,
+    "index_on_page": 0,
+    "art": "705",
+    "name": "Articulo 705",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 39,
+    "index_on_page": 1,
+    "art": "704",
+    "name": "• Candado de bronce blindado traba",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 40,
+    "index_on_page": 0,
+    "art": "706",
+    "name": "Articulo 706",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 40,
+    "index_on_page": 1,
+    "art": "707",
+    "name": "• Candado de acero laminado doble traba",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 42,
+    "index_on_page": 0,
+    "art": "302",
+    "name": "Articulo 302",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 42,
+    "index_on_page": 1,
+    "art": "304",
+    "name": "Articulo 304",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 42,
+    "index_on_page": 2,
+    "art": "303",
+    "name": "• Eslinga con candado de seguridad de 700 mm",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 43,
+    "index_on_page": 0,
+    "art": "359",
+    "name": "Articulo 359",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 43,
+    "index_on_page": 1,
+    "art": "361",
+    "name": "Articulo 361",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 43,
+    "index_on_page": 2,
+    "art": "360",
+    "name": "• Eslinga con combinación numérica. • Forrada en PVC",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 45,
+    "index_on_page": 0,
+    "art": "501",
+    "name": "Articulo 501",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 45,
+    "index_on_page": 1,
+    "art": "502",
+    "name": "Articulo 502",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 45,
+    "index_on_page": 2,
+    "art": "503",
+    "name": "Articulo 503",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 45,
+    "index_on_page": 3,
+    "art": "504",
+    "name": "• Caja de seguridad de empotrar. • Con cerrojo de seguridad",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 46,
+    "index_on_page": 0,
+    "art": "505",
+    "name": "Articulo 505",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 46,
+    "index_on_page": 1,
+    "art": "507",
+    "name": "Articulo 507",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 46,
+    "index_on_page": 2,
+    "art": "506",
+    "name": "• Caja de seguridad de arrimar. • Con cerrojo de seguridad",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 48,
+    "index_on_page": 0,
+    "art": "122",
+    "name": "• Destrabador eléctrico de doble bobina",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 48,
+    "index_on_page": 1,
+    "art": "800",
+    "name": "• Cilindro Europerfil con llave Computadorizada",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 51,
+    "index_on_page": 0,
+    "art": "621",
+    "name": "Articulo 621",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 51,
+    "index_on_page": 1,
+    "art": "630",
+    "name": "Articulo 630",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  },
+  {
+    "page": 51,
+    "index_on_page": 2,
+    "art": "622",
+    "name": "• Enrrollador cortina 4 mts. • Cinta de cortina de 10 mts",
+    "measures": [],
+    "finish": "",
+    "keys": ""
+  }
+]

@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: apri-mercadopago-server
+    runtime: node
+    rootDir: mercadopago-server
+    buildCommand: ""
+    startCommand: "node server.js"
+    healthCheckPath: /health
+    envVars:
+      - key: MERCADOPAGO_PUBLIC_KEY
+        value: APP_USR-5d1ce656-d74a-49f2-b6d7-7279bf437872
+      - key: MERCADOPAGO_ACCESS_TOKEN
+        sync: false
+      - key: APP_SUCCESS_URL
+        value: https://wa.me/542615188484?text=Hola%20Cerrajeria%20APRI%2C%20ya%20realice%20el%20pago.
+      - key: APP_FAILURE_URL
+        value: https://wa.me/542615188484?text=Hola%20Cerrajeria%20APRI%2C%20tuve%20un%20problema%20con%20el%20pago.
+      - key: APP_PENDING_URL
+        value: https://wa.me/542615188484?text=Hola%20Cerrajeria%20APRI%2C%20mi%20pago%20quedo%20pendiente.

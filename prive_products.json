@@ -1,0 +1,880 @@
+[
+  {
+    "section": "Cerraduras",
+    "art": "101",
+    "name": "Cerradura liviana de frente angosto",
+    "measures": [
+      "Frente: 183 x 20 mm.",
+      "Caja: 126 x 63 x 12 mm."
+    ],
+    "finish": "Acabado: hierro zincado.",
+    "keys": "Llaves: 1 por unidad.",
+    "image": "assets/prive-products/prive-101.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "101-A",
+    "name": "Cerradura liviana de frente",
+    "measures": [
+      "Frente: 183 x 20 mm.",
+      "Caja: 126 x 50 x 12 mm."
+    ],
+    "finish": "Acabado: hierro zincado.",
+    "keys": "Llaves: 1 por unidad.",
+    "image": "assets/prive-products/prive-101-a.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "102",
+    "name": "Cerradura liviana de frente ancho",
+    "measures": [
+      "Frente: 213 x 25 mm.",
+      "Caja: 126 x 63 x 12 mm."
+    ],
+    "finish": "Acabado: hierro zincado.",
+    "keys": "Llaves: 1 por unidad.",
+    "image": "assets/prive-products/prive-102.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "104",
+    "name": "Cerradura reforzada tipo combinación",
+    "measures": [
+      "Frente:230 x 25 mm.",
+      "Caja: 150 x 70 x 14 mm."
+    ],
+    "finish": "Acabado: hierro zincado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-104.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "105",
+    "name": "Cerradura de baño frente angosto",
+    "measures": [
+      "Frente: 183 x 20 mm.",
+      "Caja: 126 x 63 x 12 mm."
+    ],
+    "finish": "Acabado: hierro zincado.",
+    "keys": "",
+    "image": "assets/prive-products/prive-105.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "106",
+    "name": "Cerradura de baño frente ancho",
+    "measures": [
+      "Frente: 213 x 25 mm.",
+      "Caja: 126 x 63 x 12 mm."
+    ],
+    "finish": "Acabado: hierro zincado.",
+    "keys": "",
+    "image": "assets/prive-products/prive-106.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "107",
+    "name": "Cerradura extra reforzada tipo combinación",
+    "measures": [
+      "Frente: 213 x 25 mm.",
+      "Caja: 126 x 63 x 12,5 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-107.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "108",
+    "name": "Picaporte tipo ascensor",
+    "measures": [
+      "Frente: 140 x 25 mm.",
+      "Caja: 83 x 63 x 15 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "",
+    "image": "assets/prive-products/prive-108.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "109",
+    "name": "Cerradura de baño extra reforzada",
+    "measures": [
+      "Frente: 213 x 25 mm.",
+      "Caja: 126 x 63 x 12,5 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "",
+    "image": "assets/prive-products/prive-109.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "120",
+    "name": "Cerradura para puerta corrediza",
+    "measures": [
+      "Frente: 213 x 25 mm.",
+      "Caja: 126 x 63 mm."
+    ],
+    "finish": "Acabado: hierro zincado.",
+    "keys": "Llaves: 1 llave articulada.",
+    "image": "assets/prive-products/prive-120.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "121",
+    "name": "Contracaja para puerta corrediza",
+    "measures": [
+      "Frente: 213 x 25 mm.",
+      "Caja: 126 x 63 mm."
+    ],
+    "finish": "Acabado: hierro zincado.",
+    "keys": "",
+    "image": "assets/prive-products/prive-121.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "200",
+    "name": "Cerradura de seguridad",
+    "measures": [
+      "Frente: 220 x 25 mm.",
+      "Caja: 140 x 63 x 15 mm."
+    ],
+    "finish": "Acabado: hierro zincado",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-200.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "201",
+    "name": "Cerradura de seguridad doble perno “reforzada”",
+    "measures": [
+      "Frente: 238 x 28 mm.",
+      "Caja: 145 x 68 x 18,5 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-201.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "204",
+    "name": "Cerradura de seguridad angosta doble perno",
+    "measures": [
+      "Frente: 183 x 20 mm.",
+      "Caja: 126 x 40 x 14 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-204.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "205",
+    "name": "Cerradura de seguridad doble perno",
+    "measures": [
+      "Frente: 220 x 25 mm.",
+      "Caja: 140 x 63 x 16 mm."
+    ],
+    "finish": "Acabado: hierro zincado",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-205.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "206",
+    "name": "Cerradura de seguridad angosta",
+    "measures": [
+      "Frente: 183 x 20 mm.",
+      "Caja: 126 x 40 x 12 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-206.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "207",
+    "name": "Cerradura de seguridad liviana frente angosto",
+    "measures": [
+      "Frente: 183 x 20 mm.",
+      "Caja: 126 x 63 x 12 mm."
+    ],
+    "finish": "Acabado: hierro zincado",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-207.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "208",
+    "name": "Cerradura de seguridad liviana frente ancho",
+    "measures": [
+      "Frente: 213 x 25 mm.",
+      "Caja: 126 x 63 x 12 mm."
+    ],
+    "finish": "Acabado: hierro zincado",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-208.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "214",
+    "name": "Cerradura de seguridad angosta para puerta corrediza",
+    "measures": [
+      "Frente: 183 x 20 mm.",
+      "Caja: 126 x 40 x 12,5 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-214.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "2001",
+    "name": "Cerradura de seguridad reforzada doble perno",
+    "measures": [
+      "Frente: 238 x 27 mm.",
+      "Caja: 148 x 73 x 19 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-2001.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "2005",
+    "name": "Cerradura de seguridad reforzada con frente largo",
+    "measures": [
+      "Frente: 243 x 28 mm.",
+      "Caja: 142 x 69 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-2005.png"
+  },
+  {
+    "section": "Cerraduras",
+    "art": "2007",
+    "name": "Cerradura de seguridad reforzada con frente corto",
+    "measures": [
+      "Frente: 205 x 25 mm.",
+      "Caja: 143 x 69 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-2007.png"
+  },
+  {
+    "section": "Europerfil",
+    "art": "110",
+    "name": "Cerrojo de seguridad europerfil doble perno (Símil 210)",
+    "measures": [
+      "Frente: 140 x 25 mm.",
+      "Caja: 83 x 63 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 5 por unidad.",
+    "image": "assets/prive-products/prive-110.png"
+  },
+  {
+    "section": "Europerfil",
+    "art": "111",
+    "name": "Cerradura de seguridad europerfil (Símil 207)",
+    "measures": [
+      "Frente: 183 x 20 mm.",
+      "Caja: 126 x 63 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 5 por unidad.",
+    "image": "assets/prive-products/prive-111.png"
+  },
+  {
+    "section": "Europerfil",
+    "art": "112",
+    "name": "Cerradura de seguridad europerfil doble perno (Símil 2001)",
+    "measures": [
+      "Frente: 238 x 27 mm.",
+      "Caja: 148 x 73 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 5 por unidad.",
+    "image": "assets/prive-products/prive-112.png"
+  },
+  {
+    "section": "Europerfil",
+    "art": "113",
+    "name": "Cerrojo de seguridad europerfil (Símil 209)",
+    "measures": [
+      "Frente: 140 x 25 mm.",
+      "Caja: 83 x 63 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 5 por unidad.",
+    "image": "assets/prive-products/prive-113.png"
+  },
+  {
+    "section": "Europerfil",
+    "art": "114",
+    "name": "Cerradura de seguridad europerfil angosta doble perno (Símil 204)",
+    "measures": [
+      "Frente: 183 x 20 mm.",
+      "Caja: 126 x 40 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 5 por unidad.",
+    "image": "assets/prive-products/prive-114.png"
+  },
+  {
+    "section": "Europerfil",
+    "art": "115",
+    "name": "Cerradura de seguridad europerfil angosta (Símil 206)",
+    "measures": [
+      "Frente: 183 x 20 mm.",
+      "Caja: 126 x 40 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 5 por unidad.",
+    "image": "assets/prive-products/prive-115.png"
+  },
+  {
+    "section": "Europerfil",
+    "art": "116",
+    "name": "Cerradura de seguridad europerfil liviana",
+    "measures": [
+      "Frente: 213 x 25 mm.",
+      "Caja: 126 x 63 x 12 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 5 por unidad.",
+    "image": "assets/prive-products/prive-116.png"
+  },
+  {
+    "section": "Europerfil",
+    "art": "117",
+    "name": "Cerradura de seguridad europerfil",
+    "measures": [
+      "Frente: 220 x 25 mm.",
+      "Caja: 140 x 63 x 15 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 5 por unidad.",
+    "image": "assets/prive-products/prive-117.png"
+  },
+  {
+    "section": "Europerfil",
+    "art": "118",
+    "name": "Cerradura de seguridad europerfil doble perno",
+    "measures": [
+      "Frente: 220 x 25 mm.",
+      "Caja: 140 x 63 x 16 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 5 por unidad.",
+    "image": "assets/prive-products/prive-118.png"
+  },
+  {
+    "section": "Europerfil",
+    "art": "119",
+    "name": "Cerradura de seguridad europerfil angosta para puerta corrediza (Símil 214)",
+    "measures": [
+      "Frente: 183 x 20 mm.",
+      "Caja: 126 x 40 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 5 por unidad.",
+    "image": "assets/prive-products/prive-119.png"
+  },
+  {
+    "section": "Cerrojos",
+    "art": "202",
+    "name": "Cerrojo de seguridad doble perno angosto",
+    "measures": [
+      "Frente: 100 x 18 mm.",
+      "Caja: 67 x 40 x 16 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-202.png"
+  },
+  {
+    "section": "Cerrojos",
+    "art": "203",
+    "name": "Cerrojo de seguridad doble perno “reforzado”",
+    "measures": [
+      "Frente: 142 x 28 mm.",
+      "Caja: 83 x 63 x 19 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-203.png"
+  },
+  {
+    "section": "Cerrojos",
+    "art": "209",
+    "name": "Cerrojo de seguridad pasador rectangular",
+    "measures": [
+      "Frente: 140 x 25 mm.",
+      "Caja: 83 x 63 x 14,5 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-209.png"
+  },
+  {
+    "section": "Cerrojos",
+    "art": "210",
+    "name": "Cerrojo de seguridad doble perno",
+    "measures": [
+      "Frente: 140 x 25 mm.",
+      "Caja: 83 x 63 x 14,5 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-210.png"
+  },
+  {
+    "section": "Cerrojos",
+    "art": "211",
+    "name": "Cerrojo de seguridad de triple perno",
+    "measures": [
+      "Frente: 140 x 25 mm.",
+      "Caja: 83 x 63 x 14.5 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-211.png"
+  },
+  {
+    "section": "Cerrojos",
+    "art": "212",
+    "name": "Cerrojo de seguridad para puerta corrediza",
+    "measures": [
+      "Frente: 140 x 25 mm.",
+      "Caja: 83 x 63 x 14.5 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-212.png"
+  },
+  {
+    "section": "Cerrojos",
+    "art": "213",
+    "name": "Cerrojo de seguridad para portón levadizo",
+    "measures": [
+      "Frente: 140 x 25 mm.",
+      "Caja: 83 x 63 x 14.5 mm."
+    ],
+    "finish": "Acabado: hierro zincado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-213.png"
+  },
+  {
+    "section": "Cerrojos",
+    "art": "216",
+    "name": "Cerrojo de arrimar de doble perno",
+    "measures": [
+      "Frente: 18 x 67 mm.",
+      "Caja: 103 x 45 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-216.png"
+  },
+  {
+    "section": "Cerrojos",
+    "art": "220",
+    "name": "Cerrojo de seguridad liviano doble perno",
+    "measures": [
+      "Frente: 142,5 x 25 mm.",
+      "Caja: 82 x 65 x 18,5 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-220.png"
+  },
+  {
+    "section": "Cerrojos",
+    "art": "2003",
+    "name": "Cerrojo de seguridad reforzado doble perno",
+    "measures": [
+      "Frente: 140 x 27 mm.",
+      "Caja: 82 x 65 x 18,5 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-2003.png"
+  },
+  {
+    "section": "Cerrojos",
+    "art": "400",
+    "name": "Cerrojo de aplicar con llave cruz y barra pasante de acero",
+    "measures": [],
+    "finish": "Acabado: hierro cromado o símil oro.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-400.png"
+  },
+  {
+    "section": "Cerrojos",
+    "art": "401",
+    "name": "Cerrojo de aplicar con barra pasante de acero y seguro",
+    "measures": [],
+    "finish": "Acabado: hierro cromado",
+    "keys": "",
+    "image": "assets/prive-products/prive-401.png"
+  },
+  {
+    "section": "Cerrojos",
+    "art": "4000",
+    "name": "Cerrojo de aplicar con llave cruz y barra pasante de acero",
+    "measures": [],
+    "finish": "Acabado: hierro cromado.",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-4000.png"
+  },
+  {
+    "section": "Cerrojos",
+    "art": "123",
+    "name": "Cerrojo para puerta vaivén",
+    "measures": [
+      "Frente: 130 x 23 mm.",
+      "Caja: 64 x 40 x 16 mm."
+    ],
+    "finish": "Acabado: hierro niquelado.",
+    "keys": "",
+    "image": "assets/prive-products/prive-123.png"
+  },
+  {
+    "section": "Candados",
+    "art": "300",
+    "name": "Candado de seguridad de 50 mm. con aro cementado de 35 mm. y sistema de doble paleta, antiganzúa",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-300.png"
+  },
+  {
+    "section": "Candados",
+    "art": "301",
+    "name": "Candado de seguridad de 50 mm. con aro largo cementado de 122 mm. y sistema de doble paleta, antiganzúa",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-301.png"
+  },
+  {
+    "section": "Candados",
+    "art": "305",
+    "name": "Candado de seguridad de 40 mm. Con aro cementado de 35 mm. y sistema de doble paleta, antiganzúa",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-305.png"
+  },
+  {
+    "section": "Candados",
+    "art": "350",
+    "name": "Candado de bronce doble traba de 25 mm",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-350.png"
+  },
+  {
+    "section": "Candados",
+    "art": "351",
+    "name": "Candado de bronce doble traba de 30 mm",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-351.png"
+  },
+  {
+    "section": "Candados",
+    "art": "352",
+    "name": "Candado de bronce doble traba de 30 mm. con aro largo 45 mm",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-352.png"
+  },
+  {
+    "section": "Candados",
+    "art": "353",
+    "name": "Candado de bronce de 30 mm. con combinación numérica",
+    "measures": [],
+    "finish": "",
+    "keys": "",
+    "image": "assets/prive-products/prive-353.png"
+  },
+  {
+    "section": "Candados",
+    "art": "354",
+    "name": "Candado de bronce doble traba de 40 mm",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-354.png"
+  },
+  {
+    "section": "Candados",
+    "art": "355",
+    "name": "Candado de bronce doble traba de 40 mm. con aro largo de 55 mm",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-355.png"
+  },
+  {
+    "section": "Candados",
+    "art": "356",
+    "name": "Candado de bronce doble traba de 50 mm",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-356.png"
+  },
+  {
+    "section": "Candados",
+    "art": "357",
+    "name": "Candado de bronce doble traba de 60 mm",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-357.png"
+  },
+  {
+    "section": "Candados",
+    "art": "357 T",
+    "name": "Candado de tranquera o náutica de 60 mm. Con doble traba a bolilla, aro de bronce, resorte de torsión en acero inoxidable y resortes de combinación de bronce. Ideal para zona marítima",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-357-t.png"
+  },
+  {
+    "section": "Candados",
+    "art": "358",
+    "name": "Candado doble traba horizontal de 30 mm. Con cuerpo de bronce forjado y pasador de acero cementado",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-358.png"
+  },
+  {
+    "section": "Candados",
+    "art": "363",
+    "name": "Candado de bronce doble traba de 50 mm. con aro largo de 90 mm. Con Cuerpo de bronce forjado y pasador de acero cementado",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-363.png"
+  },
+  {
+    "section": "Candados",
+    "art": "700",
+    "name": "Candado de bronce doble traba de 30mm",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-700.png"
+  },
+  {
+    "section": "Candados",
+    "art": "701",
+    "name": "Candado de bronce doble traba de 40mm",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-701.png"
+  },
+  {
+    "section": "Candados",
+    "art": "702",
+    "name": "Candado de bronce doble traba de 50mm",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-702.png"
+  },
+  {
+    "section": "Candados",
+    "art": "703",
+    "name": "Candado de combinación numérica modificable de 28 mm",
+    "measures": [],
+    "finish": "",
+    "keys": "",
+    "image": "assets/prive-products/prive-703.png"
+  },
+  {
+    "section": "Candados",
+    "art": "704",
+    "name": "Candado de bronce blindado traba horizontal de 30 mm",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-704.png"
+  },
+  {
+    "section": "Candados",
+    "art": "705",
+    "name": "Candado de acero laminado doble traba de 30 mm",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-705.png"
+  },
+  {
+    "section": "Candados",
+    "art": "706",
+    "name": "Candado de acero laminado doble traba de 40 mm",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-706.png"
+  },
+  {
+    "section": "Candados",
+    "art": "707",
+    "name": "Candado de acero laminado doble traba de 50 mm",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-707.png"
+  },
+  {
+    "section": "Eslingas",
+    "art": "302",
+    "name": "Eslinga con candado de seguridad de 700 mm. La eslinga es de acero, con un candado de 50mm., forrada en PVC y sistema de doble paleta, antiganzúa",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-302.png"
+  },
+  {
+    "section": "Eslingas",
+    "art": "303",
+    "name": "Eslinga con candado de seguridad de 1000 mm. La eslinga es de acero, con un candado de 50mm., forrada en PVC. y sistema de doble paleta, antiganzúa",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-303.png"
+  },
+  {
+    "section": "Eslingas",
+    "art": "304",
+    "name": "Eslinga con candado de seguridad de 1200 mm. La eslinga es de acero, con un candado de 50mm., forrada en PVC. y sistema de doble paleta, antiganzúa",
+    "measures": [],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-304.png"
+  },
+  {
+    "section": "Eslingas",
+    "art": "359",
+    "name": "Eslinga con combinación numérica. Forrada en PVC",
+    "measures": [
+      "Medidas: 1 mt. de largo por 5 mm. de espesor."
+    ],
+    "finish": "",
+    "keys": "",
+    "image": "assets/prive-products/prive-359.png"
+  },
+  {
+    "section": "Eslingas",
+    "art": "360",
+    "name": "Eslinga para candado de 1 mt. Forrada en PVC",
+    "measures": [
+      "Medidas: 1 mt. de largo por 5 mm. de espesor."
+    ],
+    "finish": "",
+    "keys": "",
+    "image": "assets/prive-products/prive-360.png"
+  },
+  {
+    "section": "Eslingas",
+    "art": "361",
+    "name": "Eslinga para candado de 1,20 mts. Forrada en PVC",
+    "measures": [
+      "Medidas: 1,20 mts. de"
+    ],
+    "finish": "",
+    "keys": "",
+    "image": "assets/prive-products/prive-361.png"
+  },
+  {
+    "section": "Cajas de seguridad",
+    "art": "501",
+    "name": "Caja de seguridad de empotrar. Con cerrojo de seguridad doble perno incorporado",
+    "measures": [
+      "Medidas: 20 cm. de anch."
+    ],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-501.png"
+  },
+  {
+    "section": "Cajas de seguridad",
+    "art": "502",
+    "name": "Caja de seguridad de empotrar. Con cerrojo de seguridad doble perno incorporado",
+    "measures": [
+      "Medidas: 25 cm. de anch."
+    ],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-502.png"
+  },
+  {
+    "section": "Cajas de seguridad",
+    "art": "503",
+    "name": "Caja de seguridad de empotrar. Con cerrojo de seguridad doble perno incorporado",
+    "measures": [
+      "Medidas: 28 cm. de anch."
+    ],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-503.png"
+  },
+  {
+    "section": "Cajas de seguridad",
+    "art": "504",
+    "name": "Caja de seguridad de empotrar con estante. Y cerrojo de seguridad doble perno incorporado",
+    "measures": [
+      "Medidas: 35 cm. de anch."
+    ],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-504.png"
+  },
+  {
+    "section": "Cajas de seguridad",
+    "art": "505",
+    "name": "Caja de seguridad de arrimar. Con cerrojo de seguridad doble perno incorporado",
+    "measures": [
+      "Medidas: 24 cm. de anch."
+    ],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-505.png"
+  },
+  {
+    "section": "Cajas de seguridad",
+    "art": "506",
+    "name": "Caja de seguridad de arrimar. Con cerrojo de seguridad doble perno incorporado",
+    "measures": [
+      "Medidas: 25 cm. de anch."
+    ],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-506.png"
+  },
+  {
+    "section": "Cajas de seguridad",
+    "art": "507",
+    "name": "Caja de seguridad de empotrar con buzón reforzado con planchuelas. Y cerrojo de seguridad doble perno incorporado",
+    "measures": [
+      "Medidas: 25 cm. de anch."
+    ],
+    "finish": "",
+    "keys": "Llaves: 2 por unidad.",
+    "image": "assets/prive-products/prive-507.png"
+  }
+]
