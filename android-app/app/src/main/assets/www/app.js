@@ -15,6 +15,11 @@ const andifCategoryButtons = document.querySelectorAll("[data-andif-filter]");
 const andifProducts = document.querySelector("#catalogo-andif .andif-products");
 const andifCategoryEmpty = document.querySelector("#catalogo-andif .prive-category-empty");
 const andifSelectedTitle = document.querySelector("#andifSelectedTitle");
+const roaCatalogPanel = document.querySelector("#catalogo-roa");
+const roaCategoryButtons = document.querySelectorAll("[data-roa-filter]");
+const roaProducts = document.querySelector("#catalogo-roa .roa-products");
+const roaCategoryEmpty = document.querySelector("#catalogo-roa .prive-category-empty");
+const roaSelectedTitle = document.querySelector("#roaSelectedTitle");
 const lockPhotoInput = document.querySelector("#lockPhotoInput");
 const lockPhotoPreview = document.querySelector("#lockPhotoPreview");
 const homeOpenPhotoInput = document.querySelector("#homeOpenPhotoInput");
@@ -102,6 +107,25 @@ function normalizeAndifCategory(title) {
   if (normalized.includes("cristal")) return "cristal";
   if (normalized.includes("caja")) return "cajas-seguridad";
   return "exterior-interior";
+}
+
+function normalizeRoaCategory(title) {
+  const normalized = title
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+  if (normalized.includes("zincada")) return "linea-zincada";
+  if (normalized.includes("parante")) return "parante-angosto";
+  if (normalized.includes("candado")) return "candados";
+  if (normalized.includes("niquelada")) return "linea-niquelada";
+  if (normalized.includes("mueble") || normalized.includes("placard")) return "mueble-placard";
+  if (normalized.includes("automatica")) return "automaticas";
+  if (normalized.includes("euro")) return "europerfil";
+  if (normalized.includes("vidrio")) return "vidrio";
+  if (normalized.includes("electrica")) return "electricas";
+  if (normalized.includes("enchufe")) return "cajas-enchufe";
+  if (normalized.includes("caja")) return "cajas-seguridad";
+  return "linea-zincada";
 }
 
 function setupProductCategories(config) {
@@ -195,10 +219,24 @@ const andifCategoryConfig = {
   fallbackCategory: "exterior-interior",
 };
 
+const roaCategoryConfig = {
+  panel: roaCatalogPanel,
+  buttons: roaCategoryButtons,
+  products: roaProducts,
+  emptyMessage: roaCategoryEmpty,
+  selectedTitle: roaSelectedTitle,
+  buttonAttribute: "roaFilter",
+  categoryAttribute: "roaCategory",
+  selectedClass: "roa-category-selected",
+  normalizeCategory: normalizeRoaCategory,
+  fallbackCategory: "linea-zincada",
+};
+
 updateCurrentTime();
 setInterval(updateCurrentTime, 15000);
 setupProductCategories(priveCategoryConfig);
 setupProductCategories(andifCategoryConfig);
+setupProductCategories(roaCategoryConfig);
 
 document.querySelectorAll("[data-service]").forEach((link) => {
   if (link.dataset.detail) return;
@@ -375,6 +413,9 @@ detailTriggers.forEach((trigger) => {
     }
     if (panel === andifCatalogPanel) {
       resetProductCategories(andifCategoryConfig);
+    }
+    if (panel === roaCatalogPanel) {
+      resetProductCategories(roaCategoryConfig);
     }
     panel?.classList.add("active-detail");
     appShell.classList.add("detail-open");

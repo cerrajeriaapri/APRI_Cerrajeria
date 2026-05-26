@@ -1,0 +1,1080 @@
+[
+  {
+    "brand": "ROA",
+    "category": "linea-zincada",
+    "categoryLabel": "Linea zincada",
+    "art": "901",
+    "name": "Cerradura interior/exterior 4 seguros doble perno",
+    "features": [
+      "4 combinaciones internas",
+      "Pasador doble perno",
+      "Terminacion zincado"
+    ],
+    "image": "assets/roa-products/roa-901.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-zincada",
+    "categoryLabel": "Linea zincada",
+    "art": "1001",
+    "name": "Cerradura interior/exterior 4 seguros pasador rectangular",
+    "features": [
+      "4 combinaciones internas",
+      "Pasador rectangular",
+      "Terminacion zincado"
+    ],
+    "image": "assets/roa-products/roa-1001.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-zincada",
+    "categoryLabel": "Linea zincada",
+    "art": "902",
+    "name": "Cerradura interior/exterior frente 20 mm",
+    "features": [
+      "4 combinaciones internas",
+      "Frente: 20 mm ancho x 185 mm alto",
+      "Pasador rectangular"
+    ],
+    "image": "assets/roa-products/roa-902.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-zincada",
+    "categoryLabel": "Linea zincada",
+    "art": "903",
+    "name": "Cerradura interior/exterior frente 25 mm",
+    "features": [
+      "4 combinaciones internas",
+      "Frente: 25 mm ancho x 215 mm alto",
+      "Pasador rectangular"
+    ],
+    "image": "assets/roa-products/roa-903.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-zincada",
+    "categoryLabel": "Linea zincada",
+    "art": "801",
+    "name": "Cerrojo de embutir 4 seguros rectangular",
+    "features": [
+      "4 combinaciones internas",
+      "Pasador rectangular",
+      "Terminacion zincado"
+    ],
+    "image": "assets/roa-products/roa-801.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-zincada",
+    "categoryLabel": "Linea zincada",
+    "art": "802",
+    "name": "Cerrojo de embutir 4 seguros doble perno",
+    "features": [
+      "4 combinaciones internas",
+      "Pasador doble perno",
+      "Terminacion zincado"
+    ],
+    "image": "assets/roa-products/roa-802.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-zincada",
+    "categoryLabel": "Linea zincada",
+    "art": "807",
+    "name": "Cerrojo para porton corredizo",
+    "features": [
+      "4 combinaciones internas",
+      "Para porton corredizo",
+      "Terminacion zincado"
+    ],
+    "image": "assets/roa-products/roa-807.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-zincada",
+    "categoryLabel": "Linea zincada",
+    "art": "905",
+    "name": "Cerrojo compatible art. 902-903 rectangular",
+    "features": [
+      "4 combinaciones internas",
+      "Compatible con art. 902-903",
+      "Pasador rectangular"
+    ],
+    "image": "assets/roa-products/roa-905.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-zincada",
+    "categoryLabel": "Linea zincada",
+    "art": "906",
+    "name": "Cerrojo compatible art. 902-903 doble perno",
+    "features": [
+      "4 combinaciones internas",
+      "Compatible con art. 902-903",
+      "Pasador doble perno"
+    ],
+    "image": "assets/roa-products/roa-906.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-zincada",
+    "categoryLabel": "Linea zincada",
+    "art": "908",
+    "name": "Cerradura exterior 6 seguros doble perno",
+    "features": [
+      "6 combinaciones internas",
+      "Pasador doble perno",
+      "Terminacion zincado"
+    ],
+    "image": "assets/roa-products/roa-908.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-zincada",
+    "categoryLabel": "Linea zincada",
+    "art": "938",
+    "name": "Cerradura exterior consorcio 6 seguros",
+    "features": [
+      "6 combinaciones internas",
+      "Llave plana tipo consorcio",
+      "Pasador doble perno"
+    ],
+    "image": "assets/roa-products/roa-938.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-zincada",
+    "categoryLabel": "Linea zincada",
+    "art": "904",
+    "name": "Cerrojo de embutir 6 seguros doble perno",
+    "features": [
+      "6 combinaciones internas",
+      "Pasador doble perno",
+      "Terminacion zincado"
+    ],
+    "image": "assets/roa-products/roa-904.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-zincada",
+    "categoryLabel": "Linea zincada",
+    "art": "934",
+    "name": "Cerrojo consorcio 6 seguros doble perno",
+    "features": [
+      "6 combinaciones internas",
+      "Llave plana tipo consorcio",
+      "Pasador doble perno"
+    ],
+    "image": "assets/roa-products/roa-934.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "parante-angosto",
+    "categoryLabel": "Parante angosto",
+    "art": "715",
+    "name": "Cerradura para parante angosto 38 mm",
+    "features": [
+      "4 combinaciones internas",
+      "Parante angosto de 38 mm",
+      "Pasador rectangular"
+    ],
+    "image": "assets/roa-products/roa-715.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "parante-angosto",
+    "categoryLabel": "Parante angosto",
+    "art": "710",
+    "name": "Cerradura para parante angosto 6 seguros",
+    "features": [
+      "6 combinaciones internas",
+      "Parante angosto",
+      "Pasador doble perno"
+    ],
+    "image": "assets/roa-products/roa-710.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "candados",
+    "categoryLabel": "Candados",
+    "art": "40",
+    "name": "Candado doble paleta 40 mm",
+    "features": [
+      "Llaves doble paleta",
+      "Gancho de 6 mm de diametro",
+      "Terminacion niquelado"
+    ],
+    "image": "assets/roa-products/roa-40.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "candados",
+    "categoryLabel": "Candados",
+    "art": "50",
+    "name": "Candado doble paleta 50 mm",
+    "features": [
+      "Llaves doble paleta",
+      "Gancho de 8 mm de diametro",
+      "Terminacion niquelado"
+    ],
+    "image": "assets/roa-products/roa-50.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "candados",
+    "categoryLabel": "Candados",
+    "art": "50GA70",
+    "name": "Candado 50 mm gancho alto 70 mm",
+    "features": [
+      "Llaves doble paleta",
+      "Gancho de 70 mm de largo",
+      "Terminacion niquelado"
+    ],
+    "image": "assets/roa-products/roa-50ga70.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "candados",
+    "categoryLabel": "Candados",
+    "art": "50GA130",
+    "name": "Candado 50 mm gancho alto 130 mm",
+    "features": [
+      "Llaves doble paleta",
+      "Gancho de 130 mm de largo",
+      "Terminacion niquelado"
+    ],
+    "image": "assets/roa-products/roa-50ga130.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "candados",
+    "categoryLabel": "Candados",
+    "art": "50ES70",
+    "name": "Candado 50 mm con eslinga 70 cm",
+    "features": [
+      "Llaves doble paleta",
+      "Eslinga 70 cm",
+      "Terminacion niquelado"
+    ],
+    "image": "assets/roa-products/roa-50es70.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "candados",
+    "categoryLabel": "Candados",
+    "art": "50ES100",
+    "name": "Candado 50 mm con eslinga 100 cm",
+    "features": [
+      "Llaves doble paleta",
+      "Eslinga 100 cm",
+      "Terminacion niquelado"
+    ],
+    "image": "assets/roa-products/roa-50es100.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "candados",
+    "categoryLabel": "Candados",
+    "art": "50ES120",
+    "name": "Candado 50 mm con eslinga 120 cm",
+    "features": [
+      "Llaves doble paleta",
+      "Eslinga 120 cm",
+      "Terminacion niquelado"
+    ],
+    "image": "assets/roa-products/roa-50es120.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-niquelada",
+    "categoryLabel": "Linea niquelada",
+    "art": "104",
+    "name": "Cerrojo de embutir 6 seguros doble perno",
+    "features": [
+      "6 combinaciones internas",
+      "Bocallaves de acero inoxidable",
+      "Pasador doble perno"
+    ],
+    "image": "assets/roa-products/roa-104.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-niquelada",
+    "categoryLabel": "Linea niquelada",
+    "art": "504",
+    "name": "Cerrojo consorcio 6 seguros doble perno",
+    "features": [
+      "Llaves planas tipo consorcio",
+      "Refuerzo en entrada de llave",
+      "Bocallaves de acero inoxidable"
+    ],
+    "image": "assets/roa-products/roa-504.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-niquelada",
+    "categoryLabel": "Linea niquelada",
+    "art": "113",
+    "name": "Cerrojo 4 seguros pasador rectangular",
+    "features": [
+      "4 combinaciones internas",
+      "Bocallaves de acero inoxidable",
+      "Pasador rectangular"
+    ],
+    "image": "assets/roa-products/roa-113.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-niquelada",
+    "categoryLabel": "Linea niquelada",
+    "art": "114",
+    "name": "Cerrojo 4 seguros doble perno",
+    "features": [
+      "4 combinaciones internas",
+      "Bocallaves de acero inoxidable",
+      "Pasador doble perno"
+    ],
+    "image": "assets/roa-products/roa-114.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-niquelada",
+    "categoryLabel": "Linea niquelada",
+    "art": "117",
+    "name": "Cerrojo para porton corredizo",
+    "features": [
+      "4 combinaciones internas",
+      "Para porton corredizo",
+      "Bocallaves de acero inoxidable"
+    ],
+    "image": "assets/roa-products/roa-117.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-niquelada",
+    "categoryLabel": "Linea niquelada",
+    "art": "108",
+    "name": "Cerradura exterior 6 seguros doble perno",
+    "features": [
+      "6 combinaciones internas",
+      "Bocallaves de acero inoxidable",
+      "Pasador doble perno"
+    ],
+    "image": "assets/roa-products/roa-108.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-niquelada",
+    "categoryLabel": "Linea niquelada",
+    "art": "508",
+    "name": "Cerradura consorcio 6 seguros doble perno",
+    "features": [
+      "Llaves planas tipo consorcio",
+      "Refuerzo en entrada de llave",
+      "Bocallaves de acero inoxidable"
+    ],
+    "image": "assets/roa-products/roa-508.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-niquelada",
+    "categoryLabel": "Linea niquelada",
+    "art": "109",
+    "name": "Cerradura 4 seguros pasador rectangular",
+    "features": [
+      "4 combinaciones internas",
+      "Bocallaves de acero inoxidable",
+      "Pasador rectangular"
+    ],
+    "image": "assets/roa-products/roa-109.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-niquelada",
+    "categoryLabel": "Linea niquelada",
+    "art": "111",
+    "name": "Cerradura 4 seguros doble perno",
+    "features": [
+      "4 combinaciones internas",
+      "Bocallaves de acero inoxidable",
+      "Pasador doble perno"
+    ],
+    "image": "assets/roa-products/roa-111.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-niquelada",
+    "categoryLabel": "Linea niquelada",
+    "art": "110",
+    "name": "Cerradura parante angosto 6 seguros",
+    "features": [
+      "6 combinaciones internas",
+      "Para parante angosto",
+      "Pasador doble perno"
+    ],
+    "image": "assets/roa-products/roa-110.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-niquelada",
+    "categoryLabel": "Linea niquelada",
+    "art": "118",
+    "name": "Cerradura interior caja chica",
+    "features": [
+      "4 combinaciones internas",
+      "Bocallaves de acero inoxidable",
+      "Pasador rectangular"
+    ],
+    "image": "assets/roa-products/roa-118.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "linea-niquelada",
+    "categoryLabel": "Linea niquelada",
+    "art": "119",
+    "name": "Cerradura interior caja chica",
+    "features": [
+      "4 combinaciones internas",
+      "Bocallaves de acero inoxidable",
+      "Pasador rectangular"
+    ],
+    "image": "assets/roa-products/roa-119.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "mueble-placard",
+    "categoryLabel": "Mueble o placard",
+    "art": "105",
+    "name": "Cerrojo de embutir para mueble",
+    "features": [
+      "Caja de 44 x 44 mm",
+      "Pasador rectangular",
+      "Terminacion zincado"
+    ],
+    "image": "assets/roa-products/roa-105.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "mueble-placard",
+    "categoryLabel": "Mueble o placard",
+    "art": "106",
+    "name": "Cerrojo para atornillar",
+    "features": [
+      "Caja de 44 x 44 mm",
+      "Suplemento para luz de aplique",
+      "Pasador rectangular"
+    ],
+    "image": "assets/roa-products/roa-106.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "mueble-placard",
+    "categoryLabel": "Mueble o placard",
+    "art": "107",
+    "name": "Cerrojo para puerta corrediza",
+    "features": [
+      "Caja de 44 x 44 mm",
+      "Para puerta corrediza",
+      "Terminacion zincado"
+    ],
+    "image": "assets/roa-products/roa-107.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "automaticas",
+    "categoryLabel": "Automaticas",
+    "art": "808",
+    "name": "Cerradura automatica sin nuez",
+    "features": [
+      "Disparo de pasador automatico al cierre",
+      "Apertura solo con accion de llave",
+      "Compatible con art. 108/508/908/938"
+    ],
+    "image": "assets/roa-products/roa-808.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "automaticas",
+    "categoryLabel": "Automaticas",
+    "art": "828",
+    "name": "Cerradura automatica antip?nico",
+    "features": [
+      "Disparo de pasador automatico al cierre",
+      "Apertura con llave y manija interior",
+      "Funcion antipanico"
+    ],
+    "image": "assets/roa-products/roa-828.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "europerfil",
+    "categoryLabel": "Europerfil",
+    "art": "309",
+    "name": "Cerradura para cilindro europerfil",
+    "features": [
+      "Frente 25 x 220 mm",
+      "Caja 65 x 140 mm",
+      "Compatible con art. 109-901"
+    ],
+    "image": "assets/roa-products/roa-309.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "europerfil",
+    "categoryLabel": "Europerfil",
+    "art": "308",
+    "name": "Cerradura para cilindro europerfil",
+    "features": [
+      "Frente 26 x 240 mm",
+      "Caja 72 x 149 mm",
+      "Compatible con art. 108-908"
+    ],
+    "image": "assets/roa-products/roa-308.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "europerfil",
+    "categoryLabel": "Europerfil",
+    "art": "304",
+    "name": "Cerrojo para cilindro europerfil",
+    "features": [
+      "Frente 26 x 140 mm",
+      "Caja 65 x 83 mm",
+      "Compatible con art. 104-904"
+    ],
+    "image": "assets/roa-products/roa-304.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "cajas-seguridad",
+    "categoryLabel": "Cajas de seguridad",
+    "art": "204",
+    "name": "Cerrojo para caja de seguridad derecha",
+    "features": [
+      "8 combinaciones internas",
+      "Dos vueltas de llave y extraccion",
+      "Llaves: 85, 98, 125 y 150 mm"
+    ],
+    "image": "assets/roa-products/roa-204.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "cajas-seguridad",
+    "categoryLabel": "Cajas de seguridad",
+    "art": "205",
+    "name": "Cerrojo para caja de seguridad derecha",
+    "features": [
+      "8 combinaciones internas",
+      "Vuelta y media de llave",
+      "Llaves: 85, 98, 125 y 150 mm"
+    ],
+    "image": "assets/roa-products/roa-205.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "cajas-seguridad",
+    "categoryLabel": "Cajas de seguridad",
+    "art": "206",
+    "name": "Cerrojo para caja de seguridad",
+    "features": [
+      "5 combinaciones internas",
+      "Dos vueltas de llave y extraccion",
+      "Llave: 65 mm"
+    ],
+    "image": "assets/roa-products/roa-206.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "cajas-seguridad",
+    "categoryLabel": "Cajas de seguridad",
+    "art": "207",
+    "name": "Cerrojo para caja de seguridad",
+    "features": [
+      "5 combinaciones internas",
+      "Vuelta y media de llave",
+      "Llave: 65 mm"
+    ],
+    "image": "assets/roa-products/roa-207.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "cajas-seguridad",
+    "categoryLabel": "Cajas de seguridad",
+    "art": "210",
+    "name": "Cerrojo para caja de seguridad",
+    "features": [
+      "5 combinaciones internas",
+      "Dos vueltas de llave y extraccion",
+      "Llave: 65 mm"
+    ],
+    "image": "assets/roa-products/roa-210.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "cajas-seguridad",
+    "categoryLabel": "Cajas de seguridad",
+    "art": "211",
+    "name": "Cerrojo para caja de seguridad",
+    "features": [
+      "5 combinaciones internas",
+      "Vuelta y media de llave",
+      "Llave: 65 mm"
+    ],
+    "image": "assets/roa-products/roa-211.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "112",
+    "name": "Cerradura para puerta de vidrio niquelada",
+    "features": [
+      "6 combinaciones internas",
+      "Pasador doble perno",
+      "Terminacion niquelado"
+    ],
+    "image": "assets/roa-products/roa-112.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "912",
+    "name": "Cerradura para puerta de vidrio zincada",
+    "features": [
+      "6 combinaciones internas",
+      "Pasador doble perno",
+      "Terminacion zincado"
+    ],
+    "image": "assets/roa-products/roa-912.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "932",
+    "name": "Cerradura vidrio consorcio zincada",
+    "features": [
+      "6 combinaciones internas",
+      "Refuerzo en entrada de llave",
+      "Llave plana tipo consorcio"
+    ],
+    "image": "assets/roa-products/roa-932.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "890 Z",
+    "name": "Cerradura postiza para vidrio zincada",
+    "features": [
+      "6 combinaciones de hierro",
+      "Pasador rectangular y picaporte",
+      "Derecha o izquierda"
+    ],
+    "image": "assets/roa-products/roa-890-z.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "890 B",
+    "name": "Cerradura postiza para vidrio niquel/bronce",
+    "features": [
+      "6 combinaciones de hierro",
+      "Pasador rectangular y picaporte",
+      "Derecha o izquierda"
+    ],
+    "image": "assets/roa-products/roa-890-b.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "991",
+    "name": "Cerradura vidrio traba horizontal",
+    "features": [
+      "6 seguros",
+      "Cuerpo 70 x 45 x 16 mm",
+      "Traba horizontal doble perno"
+    ],
+    "image": "assets/roa-products/roa-991.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "992",
+    "name": "Cerradura vidrio traba vertical",
+    "features": [
+      "6 seguros",
+      "Cuerpo 70 x 45 x 16 mm",
+      "Traba vertical doble perno"
+    ],
+    "image": "assets/roa-products/roa-992.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "994",
+    "name": "Cerradura vidrio acabado bronce",
+    "features": [
+      "6 seguros",
+      "Cuerpo 46 x 72 x 16 mm",
+      "Traba horizontal doble perno"
+    ],
+    "image": "assets/roa-products/roa-994.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "995",
+    "name": "Cerradura vidrio acabado platil",
+    "features": [
+      "6 seguros",
+      "Cuerpo 45,5 x 71,5 x 15 mm",
+      "Traba horizontal doble perno"
+    ],
+    "image": "assets/roa-products/roa-995.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "996",
+    "name": "Cerradura vidrio tapa corta horizontal",
+    "features": [
+      "6 seguros",
+      "Cuerpo 105,5 x 44,5 x 16 mm",
+      "Tapa corta"
+    ],
+    "image": "assets/roa-products/roa-996.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "997",
+    "name": "Cerradura vidrio tapa corta vertical",
+    "features": [
+      "6 seguros",
+      "Cuerpo 105,5 x 45 x 16 mm",
+      "Tapa corta"
+    ],
+    "image": "assets/roa-products/roa-997.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "998",
+    "name": "Cerradura vidrio tapa larga horizontal",
+    "features": [
+      "6 seguros",
+      "Cuerpo 125,5 x 45 x 16 mm",
+      "Tapa larga"
+    ],
+    "image": "assets/roa-products/roa-998.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "999",
+    "name": "Cerradura vidrio tapa larga vertical",
+    "features": [
+      "6 seguros",
+      "Cuerpo 125,5 x 45 x 16 mm",
+      "Tapa larga"
+    ],
+    "image": "assets/roa-products/roa-999.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "810",
+    "name": "Postiza cerrojo con picaporte",
+    "features": [
+      "Libera picaporte electrico",
+      "Derecha o izquierda",
+      "Terminacion niquel/bronce"
+    ],
+    "image": "assets/roa-products/roa-810.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "820",
+    "name": "Postiza cerrojo para vidrio",
+    "features": [
+      "Postiza cerrojo",
+      "Derecha o izquierda",
+      "Terminacion niquel/bronce"
+    ],
+    "image": "assets/roa-products/roa-820.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "830",
+    "name": "Postiza con picaporte electrico",
+    "features": [
+      "Postiza con picaporte",
+      "Libera picaporte electrico",
+      "Terminacion niquel/bronce"
+    ],
+    "image": "assets/roa-products/roa-830.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "vidrio",
+    "categoryLabel": "Puertas de vidrio",
+    "art": "840",
+    "name": "Postiza doble cerradura",
+    "features": [
+      "Postiza doble cerradura",
+      "Terminacion niquel/bronce",
+      "Para puertas de vidrio"
+    ],
+    "image": "assets/roa-products/roa-840.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "electricas",
+    "categoryLabel": "Electricas",
+    "art": "500",
+    "name": "Destrabador electrico bobina doble",
+    "features": [
+      "Sistema bobina doble",
+      "Alimentacion 8 a 12v",
+      "Frente 93 x 26 mm"
+    ],
+    "image": "assets/roa-products/roa-500.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "electricas",
+    "categoryLabel": "Electricas",
+    "art": "1000",
+    "name": "Destrabador electrico bobina simple",
+    "features": [
+      "Sistema bobina simple",
+      "Alimentacion 8 a 12v",
+      "Cuerpo 60 x 33 mm"
+    ],
+    "image": "assets/roa-products/roa-1000.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "electricas",
+    "categoryLabel": "Electricas",
+    "art": "1500",
+    "name": "Destrabador electrico bobina doble",
+    "features": [
+      "Sistema bobina doble",
+      "Alimentacion 8 a 12v",
+      "Cuerpo 60 x 33 mm"
+    ],
+    "image": "assets/roa-products/roa-1500.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "electricas",
+    "categoryLabel": "Electricas",
+    "art": "60",
+    "name": "Pulsador / transformador",
+    "features": [
+      "Entrada 220v CA",
+      "Salida 12v CA",
+      "Para instalaciones electricas"
+    ],
+    "image": "assets/roa-products/roa-60.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "electricas",
+    "categoryLabel": "Electricas",
+    "art": "2020",
+    "name": "Cerradura para porton automatico",
+    "features": [
+      "Perno traba de 18 mm",
+      "Tambor con 2 llaves tipo Yale",
+      "Alimentacion 220v"
+    ],
+    "image": "assets/roa-products/roa-2020.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "cajas-enchufe",
+    "categoryLabel": "Cajas tipo enchufe",
+    "art": "7005",
+    "name": "Caja de seguridad tipo enchufe 1 compartimiento",
+    "features": [
+      "1 compartimiento",
+      "Cerradura desmontable doble paleta",
+      "Alto 60 x ancho 100 x prof. 140 mm"
+    ],
+    "image": "assets/roa-products/roa-7005.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "cajas-enchufe",
+    "categoryLabel": "Cajas tipo enchufe",
+    "art": "7006",
+    "name": "Caja de seguridad tipo enchufe 2 compartimientos",
+    "features": [
+      "2 compartimientos",
+      "Cerradura desmontable doble paleta",
+      "Alto 150 x ancho 120 x prof. 140 mm"
+    ],
+    "image": "assets/roa-products/roa-7006.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "cajas-enchufe",
+    "categoryLabel": "Cajas tipo enchufe",
+    "art": "7007",
+    "name": "Caja de seguridad tipo enchufe 3 compartimientos",
+    "features": [
+      "3 compartimientos",
+      "Cerradura desmontable doble paleta",
+      "Alto 60 x ancho 310 x prof. 140 mm"
+    ],
+    "image": "assets/roa-products/roa-7007.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "cajas-enchufe",
+    "categoryLabel": "Cajas tipo enchufe",
+    "art": "7008",
+    "name": "Caja de seguridad tipo enchufe 4 compartimientos",
+    "features": [
+      "4 compartimientos",
+      "Cerradura desmontable doble paleta",
+      "Alto 150 x ancho 300 x prof. 140 mm"
+    ],
+    "image": "assets/roa-products/roa-7008.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "cajas-seguridad",
+    "categoryLabel": "Cajas de seguridad",
+    "art": "1120 A",
+    "name": "Caja domiciliaria para embutir o abulonar",
+    "features": [
+      "Caja domiciliaria",
+      "Para embutir o abulonar",
+      "Consultar medida disponible"
+    ],
+    "image": "assets/roa-products/roa-1120-a.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "cajas-seguridad",
+    "categoryLabel": "Cajas de seguridad",
+    "art": "5157 A",
+    "name": "Caja domiciliaria con ranura tipo buzon",
+    "features": [
+      "Caja domiciliaria",
+      "Con ranura tipo buzon",
+      "Consultar medida disponible"
+    ],
+    "image": "assets/roa-products/roa-5157-a.png",
+    "price": null
+  },
+  {
+    "brand": "ROA",
+    "category": "cajas-seguridad",
+    "categoryLabel": "Cajas de seguridad",
+    "art": "3157 E",
+    "name": "Caja domiciliaria reforzada",
+    "features": [
+      "Caja domiciliaria",
+      "Para embutir",
+      "Consultar medida disponible"
+    ],
+    "image": "assets/roa-products/roa-3157-e.png",
+    "price": null
+  }
+]
