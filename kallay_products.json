@@ -1,0 +1,646 @@
+[
+  {
+    "brand": "KALLAY",
+    "category": "comunes-bano",
+    "categoryLabel": "Comunes y bano",
+    "art": "501",
+    "name": "Cerradura de embutir reforzada para puerta interior",
+    "features": [
+      "Pestillo de bronce trefilado",
+      "Cerrojo de bronce forjado",
+      "Frente 25 x 220"
+    ],
+    "image": "assets/kallay-products/kallay-501.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "comunes-bano",
+    "categoryLabel": "Comunes y bano",
+    "art": "503",
+    "name": "Cerradura de embutir liviana para puerta interior",
+    "features": [
+      "Pestillo reversible de bronce",
+      "Cerrojo de chapa de acero laminada",
+      "Frente 20 x 190"
+    ],
+    "image": "assets/kallay-products/kallay-503.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "comunes-bano",
+    "categoryLabel": "Comunes y bano",
+    "art": "504",
+    "name": "Cerradura de embutir liviana para puerta interior",
+    "features": [
+      "Pestillo reversible de bronce",
+      "Caja y piezas interiores galvanizadas",
+      "Frente 25 x 212"
+    ],
+    "image": "assets/kallay-products/kallay-504.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "comunes-bano",
+    "categoryLabel": "Comunes y bano",
+    "art": "512",
+    "name": "Cerradura liviana para puerta interior caja angosta",
+    "features": [
+      "Pestillo reversible de bronce",
+      "Cerrojo de chapa de acero laminada",
+      "Frente 20 x 190"
+    ],
+    "image": "assets/kallay-products/kallay-512.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "comunes-bano",
+    "categoryLabel": "Comunes y bano",
+    "art": "502",
+    "name": "Cerradura reforzada para puerta de bano",
+    "features": [
+      "Pestillo de bronce trefilado",
+      "Sin llave para colocar perilla",
+      "Frente 25 x 220"
+    ],
+    "image": "assets/kallay-products/kallay-502.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "comunes-bano",
+    "categoryLabel": "Comunes y bano",
+    "art": "505/506",
+    "name": "Cerradura liviana para puerta de bano",
+    "features": [
+      "Sin llave para colocar perilla",
+      "Frente 505: 20 x 190",
+      "Frente 506: 25 x 212"
+    ],
+    "image": "assets/kallay-products/kallay-505-506.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "corredizas-cristales",
+    "categoryLabel": "Corredizas y cristales",
+    "art": "507",
+    "name": "Cerradura reforzada para puerta corrediza",
+    "features": [
+      "Tirador de bronce",
+      "Cerrojo de acero laminado de enganche",
+      "Frente 25 x 220"
+    ],
+    "image": "assets/kallay-products/kallay-507.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "corredizas-cristales",
+    "categoryLabel": "Corredizas y cristales",
+    "art": "508",
+    "name": "Complemento para puerta corrediza art. 507",
+    "features": [
+      "Tirador de bronce forjado",
+      "Caja y piezas interiores galvanizadas",
+      "Frente 25 x 220"
+    ],
+    "image": "assets/kallay-products/kallay-508.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "corredizas-cristales",
+    "categoryLabel": "Corredizas y cristales",
+    "art": "4015M",
+    "name": "Cerrojo reforzado para puerta corrediza de seguridad",
+    "features": [
+      "Cerrojo rectangular de acero laminado",
+      "6 plaquetas de bronce laminado",
+      "Frente 25 x 145"
+    ],
+    "image": "assets/kallay-products/kallay-4015m.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "corredizas-cristales",
+    "categoryLabel": "Corredizas y cristales",
+    "art": "5002/5002M",
+    "name": "Cerradura corrediza seguridad caja angosta europerfil",
+    "features": [
+      "Cerrojo de enganche de acero laminado",
+      "6 plaquetas de bronce laminado",
+      "Frente 23 x 200"
+    ],
+    "image": "assets/kallay-products/kallay-5002-5002m.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "corredizas-cristales",
+    "categoryLabel": "Corredizas y cristales",
+    "art": "4010C",
+    "name": "Cerrojo para puerta exterior de cristal",
+    "features": [
+      "Cerrojo de dos pernos giratorios",
+      "6 plaquetas de bronce laminado",
+      "Frente 26 x 140"
+    ],
+    "image": "assets/kallay-products/kallay-4010c.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "corredizas-cristales",
+    "categoryLabel": "Corredizas y cristales",
+    "art": "6000",
+    "name": "Cerrojo esferico para puertas de cristal",
+    "features": [
+      "Caja y contrafrente de bronce inyectado",
+      "2 cerrojos de igual combinacion",
+      "Llave doble paleta"
+    ],
+    "image": "assets/kallay-products/kallay-6000.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "especiales-vaiven",
+    "categoryLabel": "Especiales y vaiven",
+    "art": "2001",
+    "name": "Cerradura exterior cilindro unificado",
+    "features": [
+      "Pestillo reversible de bronce",
+      "Llaves tipo Yale",
+      "Frente 25 x 220"
+    ],
+    "image": "assets/kallay-products/kallay-2001.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "especiales-vaiven",
+    "categoryLabel": "Especiales y vaiven",
+    "art": "2004",
+    "name": "Cerradura de aplicar para persiana de seguridad",
+    "features": [
+      "Cierre con brazos impulsores laterales",
+      "Recorrido 19 mm",
+      "Llave de bronce forjada"
+    ],
+    "image": "assets/kallay-products/kallay-2004.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "especiales-vaiven",
+    "categoryLabel": "Especiales y vaiven",
+    "art": "2025/5024",
+    "name": "Pestillo de embutir reforzado para colocar manija",
+    "features": [
+      "Pestillo reversible de bronce",
+      "Frente 2025: 25 x 135",
+      "Frente 5024: 23 x 150"
+    ],
+    "image": "assets/kallay-products/kallay-2025-5024.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "especiales-vaiven",
+    "categoryLabel": "Especiales y vaiven",
+    "art": "517",
+    "name": "Cerradura reforzada para puerta corrediza",
+    "features": [
+      "Cerrojo de enganche",
+      "Llave de bronce articulada",
+      "Frente 25 x 145"
+    ],
+    "image": "assets/kallay-products/kallay-517.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "especiales-vaiven",
+    "categoryLabel": "Especiales y vaiven",
+    "art": "5003/5003M",
+    "name": "Cerradura reforzada para puerta vaiven",
+    "features": [
+      "Rodillo giratorio registrable",
+      "Cerrojo de 2 pernos giratorios",
+      "Frente 25 x 130 / 23 x 240"
+    ],
+    "image": "assets/kallay-products/kallay-5003-5003m.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "especiales-vaiven",
+    "categoryLabel": "Especiales y vaiven",
+    "art": "5023",
+    "name": "Pestillo reforzado para puerta vaiven caja angosta",
+    "features": [
+      "Rodillo giratorio registrable",
+      "Caja y piezas galvanizadas",
+      "Frente 23 x 130"
+    ],
+    "image": "assets/kallay-products/kallay-5023.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "seguridad-livianas",
+    "categoryLabel": "Seguridad livianas e intermedias",
+    "art": "3001",
+    "name": "Cerradura liviana seguridad caja angosta",
+    "features": [
+      "4 plaquetas de acero laminado",
+      "Pestillo reversible",
+      "Frente 20 x 190"
+    ],
+    "image": "assets/kallay-products/kallay-3001.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "seguridad-livianas",
+    "categoryLabel": "Seguridad livianas e intermedias",
+    "art": "3002",
+    "name": "Cerradura liviana seguridad caja angosta",
+    "features": [
+      "4 plaquetas de acero laminado",
+      "Llaves de bronce forjado",
+      "Frente 20 x 190"
+    ],
+    "image": "assets/kallay-products/kallay-3002.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "seguridad-livianas",
+    "categoryLabel": "Seguridad livianas e intermedias",
+    "art": "4005",
+    "name": "Cerradura liviana seguridad exterior",
+    "features": [
+      "Cerrojo rectangular de acero laminado",
+      "4 plaquetas de acero",
+      "Frente 20 x 190"
+    ],
+    "image": "assets/kallay-products/kallay-4005.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "seguridad-livianas",
+    "categoryLabel": "Seguridad livianas e intermedias",
+    "art": "4003",
+    "name": "Cerradura liviana seguridad exterior",
+    "features": [
+      "Cerrojo rectangular de acero laminado",
+      "Resortes de acero laminado",
+      "Frente 25 x 212"
+    ],
+    "image": "assets/kallay-products/kallay-4003.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "seguridad-livianas",
+    "categoryLabel": "Seguridad livianas e intermedias",
+    "art": "4006",
+    "name": "Cerradura liviana seguridad doble perno",
+    "features": [
+      "Cerrojo de 2 pernos de acero",
+      "4 plaquetas de acero laminado",
+      "Frente 25 x 220"
+    ],
+    "image": "assets/kallay-products/kallay-4006.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "seguridad-livianas",
+    "categoryLabel": "Seguridad livianas e intermedias",
+    "art": "4002",
+    "name": "Cerradura liviana seguridad pasador rectangular",
+    "features": [
+      "Cerrojo rectangular de acero laminado",
+      "4 plaquetas de acero laminado",
+      "Frente 25 x 220"
+    ],
+    "image": "assets/kallay-products/kallay-4002.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "reforzadas",
+    "categoryLabel": "Reforzadas",
+    "art": "4000",
+    "name": "Cerradura reforzada exterior doble perno giratorio",
+    "features": [
+      "6 plaquetas de bronce laminado",
+      "Cerrojo de 2 pernos giratorios",
+      "Frente 26 x 238"
+    ],
+    "image": "assets/kallay-products/kallay-4000.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "reforzadas",
+    "categoryLabel": "Reforzadas",
+    "art": "4001",
+    "name": "Cerradura reforzada exterior doble perno",
+    "features": [
+      "6 plaquetas de bronce laminado",
+      "Cerrojo de 2 pernos de acero",
+      "Frente 25 x 220"
+    ],
+    "image": "assets/kallay-products/kallay-4001.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "reforzadas",
+    "categoryLabel": "Reforzadas",
+    "art": "4007",
+    "name": "Cerradura reforzada exterior doble perno giratorio",
+    "features": [
+      "6 plaquetas de bronce laminado",
+      "Cerrojo de 2 pernos giratorios",
+      "Frente 26 x 238"
+    ],
+    "image": "assets/kallay-products/kallay-4007.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "reforzadas",
+    "categoryLabel": "Reforzadas",
+    "art": "4100",
+    "name": "Cerradura reforzada exterior cerrojo bronce",
+    "features": [
+      "Cerrojo de bronce forjado",
+      "6 plaquetas de bronce laminado",
+      "Frente 26 x 238"
+    ],
+    "image": "assets/kallay-products/kallay-4100.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "reforzadas",
+    "categoryLabel": "Reforzadas",
+    "art": "5006",
+    "name": "Cerradura seguridad reforzada caja angosta",
+    "features": [
+      "6 plaquetas de bronce laminado",
+      "Cerrojo de 2 pernos",
+      "Frente 23 x 240"
+    ],
+    "image": "assets/kallay-products/kallay-5006.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "reforzadas",
+    "categoryLabel": "Reforzadas",
+    "art": "5006M",
+    "name": "Cerradura seguridad caja angosta europerfil",
+    "features": [
+      "Bocallaves plasticos",
+      "Contrafrente de sujecion rapida",
+      "Frente 23 x 240"
+    ],
+    "image": "assets/kallay-products/kallay-5006m.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "cerrojos-seguridad",
+    "categoryLabel": "Cerrojos de seguridad",
+    "art": "4010",
+    "name": "Cerrojo reforzado exterior doble perno giratorio",
+    "features": [
+      "6 plaquetas de bronce laminado",
+      "Cerrojo de 2 pernos giratorios",
+      "Frente 26 x 140"
+    ],
+    "image": "assets/kallay-products/kallay-4010.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "cerrojos-seguridad",
+    "categoryLabel": "Cerrojos de seguridad",
+    "art": "4011",
+    "name": "Cerrojo reforzado exterior doble perno",
+    "features": [
+      "6 plaquetas de bronce laminado",
+      "Cerrojo de 2 pernos",
+      "Frente 25 x 145"
+    ],
+    "image": "assets/kallay-products/kallay-4011.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "cerrojos-seguridad",
+    "categoryLabel": "Cerrojos de seguridad",
+    "art": "4012",
+    "name": "Cerrojo reforzado exterior rectangular",
+    "features": [
+      "6 plaquetas de bronce laminado",
+      "Cerrojo rectangular de acero",
+      "Frente 26 x 140"
+    ],
+    "image": "assets/kallay-products/kallay-4012.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "cerrojos-seguridad",
+    "categoryLabel": "Cerrojos de seguridad",
+    "art": "4013",
+    "name": "Cerrojo liviano exterior seguridad",
+    "features": [
+      "4 plaquetas de acero laminado",
+      "Cerrojo de pernos giratorios",
+      "Frente 25 x 140"
+    ],
+    "image": "assets/kallay-products/kallay-4013.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "cerrojos-seguridad",
+    "categoryLabel": "Cerrojos de seguridad",
+    "art": "4017",
+    "name": "Cerrojo reforzado exterior rectangular",
+    "features": [
+      "6 plaquetas de bronce laminado",
+      "Cerrojo rectangular de acero",
+      "Frente 26 x 140"
+    ],
+    "image": "assets/kallay-products/kallay-4017.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "cerrojos-seguridad",
+    "categoryLabel": "Cerrojos de seguridad",
+    "art": "5012",
+    "name": "Cerrojo reforzado caja angosta",
+    "features": [
+      "6 plaquetas de bronce laminado",
+      "Cerrojo de 2 pernos",
+      "Frente 23 x 180"
+    ],
+    "image": "assets/kallay-products/kallay-5012.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "placard",
+    "categoryLabel": "Placard",
+    "art": "3011",
+    "name": "Cerrojo liviano para puerta de placard",
+    "features": [
+      "Cerrojo rectangular de acero",
+      "4 plaquetas de acero laminado",
+      "Frente 17 x 100"
+    ],
+    "image": "assets/kallay-products/kallay-3011.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "placard",
+    "categoryLabel": "Placard",
+    "art": "3012",
+    "name": "Cerrojo para placard corrediza",
+    "features": [
+      "Cerrojo rectangular de enganche",
+      "4 plaquetas de acero laminado",
+      "Frente 17 x 100"
+    ],
+    "image": "assets/kallay-products/kallay-3012.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "placard",
+    "categoryLabel": "Placard",
+    "art": "3013",
+    "name": "Cerrojo de aplicar para placard",
+    "features": [
+      "Cubierta de fijacion inyectada en ZAMAC 10",
+      "Llave de bronce forjada larga",
+      "Frente 13 x 65,5"
+    ],
+    "image": "assets/kallay-products/kallay-3013.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "placard",
+    "categoryLabel": "Placard",
+    "art": "3014",
+    "name": "Cerrojo de aplicar para placard corrediza",
+    "features": [
+      "Cerrojo rectangular de enganche",
+      "Cubierta ZAMAC 10",
+      "Frente 13 x 65,5"
+    ],
+    "image": "assets/kallay-products/kallay-3014.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "europerfil",
+    "categoryLabel": "Europerfil",
+    "art": "2006",
+    "name": "Cerradura parante angosto cilindro europerfil",
+    "features": [
+      "Cilindro europerfil",
+      "Caja angosta",
+      "Frente 23 x 240"
+    ],
+    "image": "assets/kallay-products/kallay-2006.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "europerfil",
+    "categoryLabel": "Europerfil",
+    "art": "2010",
+    "name": "Cerrojo exterior cilindro europerfil",
+    "features": [
+      "Cerrojo de dos pernos giratorios",
+      "Cilindro europerfil",
+      "Frente 26 x 140"
+    ],
+    "image": "assets/kallay-products/kallay-2010.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "europerfil",
+    "categoryLabel": "Europerfil",
+    "art": "2010C",
+    "name": "Cerrojo cristal cilindro europerfil",
+    "features": [
+      "Cerrojo de dos pernos giratorios",
+      "Para puerta exterior de cristal",
+      "Frente 26 x 140"
+    ],
+    "image": "assets/kallay-products/kallay-2010c.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "europerfil",
+    "categoryLabel": "Europerfil",
+    "art": "2200",
+    "name": "Cerradura exterior cilindro europerfil",
+    "features": [
+      "Pestillo reversible",
+      "Cerrojo de dos pernos giratorios",
+      "Frente 26 x 238"
+    ],
+    "image": "assets/kallay-products/kallay-2200.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "europerfil",
+    "categoryLabel": "Europerfil",
+    "art": "2300",
+    "name": "Cerradura reforzada europerfil cerrojo bronce",
+    "features": [
+      "Cerrojo de bronce forjado",
+      "Cilindro europerfil",
+      "Frente 26 x 238"
+    ],
+    "image": "assets/kallay-products/kallay-2300.png",
+    "price": null
+  },
+  {
+    "brand": "KALLAY",
+    "category": "europerfil",
+    "categoryLabel": "Europerfil",
+    "art": "2100",
+    "name": "Cerradura reforzada europerfil rectangular",
+    "features": [
+      "Cerrojo rectangular laminado",
+      "Cilindro europerfil",
+      "Frente 25 x 220"
+    ],
+    "image": "assets/kallay-products/kallay-2100.png",
+    "price": null
+  }
+]

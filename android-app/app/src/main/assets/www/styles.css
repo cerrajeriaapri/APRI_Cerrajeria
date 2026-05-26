@@ -605,6 +605,10 @@ button {
   display: block;
 }
 
+#catalogo-kallay.kallay-category-selected .prive-selected-title {
+  display: block;
+}
+
 .prive-products {
   display: grid;
   gap: 14px;
@@ -615,7 +619,9 @@ button {
 #catalogo-andif .cart-box,
 #catalogo-andif .andif-products,
 #catalogo-roa .cart-box,
-#catalogo-roa .roa-products {
+#catalogo-roa .roa-products,
+#catalogo-kallay .cart-box,
+#catalogo-kallay .kallay-products {
   display: none;
 }
 
@@ -624,13 +630,16 @@ button {
 #catalogo-andif.andif-category-selected .cart-box,
 #catalogo-andif.andif-category-selected .andif-products,
 #catalogo-roa.roa-category-selected .cart-box,
-#catalogo-roa.roa-category-selected .roa-products {
+#catalogo-roa.roa-category-selected .roa-products,
+#catalogo-kallay.kallay-category-selected .cart-box,
+#catalogo-kallay.kallay-category-selected .kallay-products {
   display: grid;
 }
 
 #catalogo-prive .is-hidden,
 #catalogo-andif .is-hidden,
-#catalogo-roa .is-hidden {
+#catalogo-roa .is-hidden,
+#catalogo-kallay .is-hidden {
   display: none;
 }
 

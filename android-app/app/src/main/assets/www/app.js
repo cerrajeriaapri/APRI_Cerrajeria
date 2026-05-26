@@ -20,6 +20,11 @@ const roaCategoryButtons = document.querySelectorAll("[data-roa-filter]");
 const roaProducts = document.querySelector("#catalogo-roa .roa-products");
 const roaCategoryEmpty = document.querySelector("#catalogo-roa .prive-category-empty");
 const roaSelectedTitle = document.querySelector("#roaSelectedTitle");
+const kallayCatalogPanel = document.querySelector("#catalogo-kallay");
+const kallayCategoryButtons = document.querySelectorAll("[data-kallay-filter]");
+const kallayProducts = document.querySelector("#catalogo-kallay .kallay-products");
+const kallayCategoryEmpty = document.querySelector("#catalogo-kallay .prive-category-empty");
+const kallaySelectedTitle = document.querySelector("#kallaySelectedTitle");
 const lockPhotoInput = document.querySelector("#lockPhotoInput");
 const lockPhotoPreview = document.querySelector("#lockPhotoPreview");
 const homeOpenPhotoInput = document.querySelector("#homeOpenPhotoInput");
@@ -128,6 +133,22 @@ function normalizeRoaCategory(title) {
   return "linea-zincada";
 }
 
+function normalizeKallayCategory(title) {
+  const normalized = title
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+  if (normalized.includes("comunes") || normalized.includes("bano")) return "comunes-bano";
+  if (normalized.includes("corredizas") || normalized.includes("cristales")) return "corredizas-cristales";
+  if (normalized.includes("especiales") || normalized.includes("vaiven")) return "especiales-vaiven";
+  if (normalized.includes("livianas")) return "seguridad-livianas";
+  if (normalized.includes("reforzadas")) return "reforzadas";
+  if (normalized.includes("cerrojos")) return "cerrojos-seguridad";
+  if (normalized.includes("placard")) return "placard";
+  if (normalized.includes("euro")) return "europerfil";
+  return "comunes-bano";
+}
+
 function setupProductCategories(config) {
   const {
     panel,
@@ -232,11 +253,25 @@ const roaCategoryConfig = {
   fallbackCategory: "linea-zincada",
 };
 
+const kallayCategoryConfig = {
+  panel: kallayCatalogPanel,
+  buttons: kallayCategoryButtons,
+  products: kallayProducts,
+  emptyMessage: kallayCategoryEmpty,
+  selectedTitle: kallaySelectedTitle,
+  buttonAttribute: "kallayFilter",
+  categoryAttribute: "kallayCategory",
+  selectedClass: "kallay-category-selected",
+  normalizeCategory: normalizeKallayCategory,
+  fallbackCategory: "comunes-bano",
+};
+
 updateCurrentTime();
 setInterval(updateCurrentTime, 15000);
 setupProductCategories(priveCategoryConfig);
 setupProductCategories(andifCategoryConfig);
 setupProductCategories(roaCategoryConfig);
+setupProductCategories(kallayCategoryConfig);
 
 document.querySelectorAll("[data-service]").forEach((link) => {
   if (link.dataset.detail) return;
@@ -416,6 +451,9 @@ detailTriggers.forEach((trigger) => {
     }
     if (panel === roaCatalogPanel) {
       resetProductCategories(roaCategoryConfig);
+    }
+    if (panel === kallayCatalogPanel) {
+      resetProductCategories(kallayCategoryConfig);
     }
     panel?.classList.add("active-detail");
     appShell.classList.add("detail-open");
