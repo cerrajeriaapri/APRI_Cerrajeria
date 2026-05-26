@@ -20,6 +20,11 @@ const roaCategoryButtons = document.querySelectorAll("[data-roa-filter]");
 const roaProducts = document.querySelector("#catalogo-roa .roa-products");
 const roaCategoryEmpty = document.querySelector("#catalogo-roa .prive-category-empty");
 const roaSelectedTitle = document.querySelector("#roaSelectedTitle");
+const acytraCatalogPanel = document.querySelector("#catalogo-acytra");
+const acytraCategoryButtons = document.querySelectorAll("[data-acytra-filter]");
+const acytraProducts = document.querySelector("#catalogo-acytra .acytra-products");
+const acytraCategoryEmpty = document.querySelector("#catalogo-acytra .prive-category-empty");
+const acytraSelectedTitle = document.querySelector("#acytraSelectedTitle");
 const kallayCatalogPanel = document.querySelector("#catalogo-kallay");
 const kallayCategoryButtons = document.querySelectorAll("[data-kallay-filter]");
 const kallayProducts = document.querySelector("#catalogo-kallay .kallay-products");
@@ -131,6 +136,19 @@ function normalizeRoaCategory(title) {
   if (normalized.includes("enchufe")) return "cajas-enchufe";
   if (normalized.includes("caja")) return "cajas-seguridad";
   return "linea-zincada";
+}
+
+function normalizeAcytraCategory(title) {
+  const normalized = title
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+  if (normalized.includes("seguridad")) return "seguridad";
+  if (normalized.includes("consorcio")) return "consorcio";
+  if (normalized.includes("cadena")) return "candados-cadena";
+  if (normalized.includes("bronce")) return "candados-bronce";
+  if (normalized.includes("candados")) return "candados-doble-paleta";
+  return "seguridad";
 }
 
 function normalizeKallayCategory(title) {
@@ -253,6 +271,19 @@ const roaCategoryConfig = {
   fallbackCategory: "linea-zincada",
 };
 
+const acytraCategoryConfig = {
+  panel: acytraCatalogPanel,
+  buttons: acytraCategoryButtons,
+  products: acytraProducts,
+  emptyMessage: acytraCategoryEmpty,
+  selectedTitle: acytraSelectedTitle,
+  buttonAttribute: "acytraFilter",
+  categoryAttribute: "acytraCategory",
+  selectedClass: "acytra-category-selected",
+  normalizeCategory: normalizeAcytraCategory,
+  fallbackCategory: "seguridad",
+};
+
 const kallayCategoryConfig = {
   panel: kallayCatalogPanel,
   buttons: kallayCategoryButtons,
@@ -271,6 +302,7 @@ setInterval(updateCurrentTime, 15000);
 setupProductCategories(priveCategoryConfig);
 setupProductCategories(andifCategoryConfig);
 setupProductCategories(roaCategoryConfig);
+setupProductCategories(acytraCategoryConfig);
 setupProductCategories(kallayCategoryConfig);
 
 document.querySelectorAll("[data-service]").forEach((link) => {
@@ -451,6 +483,9 @@ detailTriggers.forEach((trigger) => {
     }
     if (panel === roaCatalogPanel) {
       resetProductCategories(roaCategoryConfig);
+    }
+    if (panel === acytraCatalogPanel) {
+      resetProductCategories(acytraCategoryConfig);
     }
     if (panel === kallayCatalogPanel) {
       resetProductCategories(kallayCategoryConfig);
