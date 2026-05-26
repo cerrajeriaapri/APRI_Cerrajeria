@@ -1,6 +1,7 @@
 const phone = "542615188484";
 const appShell = document.querySelector(".phone-shell");
 const currentTime = document.querySelector("#currentTime");
+const homeNavButton = document.querySelector("[data-home-nav]");
 const detailTriggers = document.querySelectorAll("[data-detail]");
 const closeDetailButtons = document.querySelectorAll("[data-close-detail]");
 const detailPanels = document.querySelectorAll(".detail-panel");
@@ -386,6 +387,13 @@ closeDetailButtons.forEach((button) => {
     appShell.classList.remove("detail-open");
     detailPanels.forEach((detailPanel) => detailPanel.classList.remove("active-detail"));
   });
+});
+
+homeNavButton?.addEventListener("click", (event) => {
+  event.preventDefault();
+  appShell.classList.remove("detail-open");
+  detailPanels.forEach((detailPanel) => detailPanel.classList.remove("active-detail"));
+  appShell.scrollTo({ top: 0, behavior: "smooth" });
 });
 
 lockPhotoInput?.addEventListener("change", () => {
